@@ -9,5 +9,6 @@ For each of the following examples, cd into the directory and run ```npm
 install``` followeed by ```npm run```
 
 * a-floatingbox - simple example illustrating hoc for floating box (see src/box.js and src/App.css)
-* b-configs - simple example illustrating static members (this has been ejected and configured so decorators work)
+* b-configs - simple example illustrating decorators (this has been ejected and configured so decorators work)
+* c-maskable-example -  example illustrating hoc to add maksable to a component (this has been ejected and configured so decorators work)
 
