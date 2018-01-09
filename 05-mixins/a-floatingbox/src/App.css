@@ -1,0 +1,7 @@
+.floating {
+  border: 1px solid red;
+  margin: 50px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+}
