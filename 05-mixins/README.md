@@ -9,8 +9,5 @@ For each of the following examples, cd into the directory and run ```npm
 install``` followeed by ```npm run```
 
 * a-floatingbox - simple example illustrating hoc for floating box (see src/box.js and src/App.css)
-* b-configs - simple example illustrating static members (examine output in Chrome developer tools)
+* b-configs - simple example illustrating static members (this has been ejected and configured so decorators work)
 
-b-configs is a broken example.  It seems you cannot use decorators with create-react-app.  As well,
-doing ```npm install --save-dev babel-plugin-transform-decorators-legacy``` removes some pacakges 
-from node_modules that further breaks the created app. 
