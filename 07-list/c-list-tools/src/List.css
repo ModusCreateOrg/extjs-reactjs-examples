@@ -1,0 +1,11 @@
+.list .list-item {
+    border-bottom: 1px solid #eaeaea;
+    padding: 5px;
+}
+.list .list-item .main {
+    font-weight: bold;
+}
+.list .list-item .meta {
+    color: #b1b1b1;
+}
+
