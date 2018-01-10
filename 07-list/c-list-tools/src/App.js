@@ -85,6 +85,7 @@ class App extends Component {
         </div>
         <List 
           data={data}
+          selection={'multi'}
           disclosure={(item) => {
             console.log('item disclosed', item);
           }}
