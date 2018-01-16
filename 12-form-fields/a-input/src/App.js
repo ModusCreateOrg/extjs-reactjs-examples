@@ -5,10 +5,10 @@ class App extends Component {
   render() {
     return (
       <form className="login-form">
-        <input type="text" />
-        <input type="password" />
-        <input type="url" />
-        <input type="search" />
+        <input type="text" /><br />
+        <input type="password" /><br />
+        <input type="url" /><br />
+        <input type="search" /><br />
       </form>
     );
   }
