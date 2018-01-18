@@ -1,0 +1,8 @@
+.layout-fit {
+  display: flex;
+  box-sizing: border-box;
+}
+.layout-fit > * {
+  flex-grow: 1;
+}
+
