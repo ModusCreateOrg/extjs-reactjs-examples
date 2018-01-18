@@ -1,0 +1,29 @@
+.button-group {
+  display: inline-block;
+}
+.button-group button {
+  background-color: #3094bb;
+  border: 1px solid #166e90;
+  color: white;
+  padding: 8px 22px;
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 14px;
+}
+.button-group > button:not(:last-child) {
+  border-right: none;
+}
+.button-group > button:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}.button-group > button:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.button-group button:hover {
+  background-color: #40a4cc;
+}
+.btn-pressed {
+  background-color: #267696 !important;
+}
+
