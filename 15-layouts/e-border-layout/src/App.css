@@ -1,0 +1,28 @@
+.Resizer {
+  background: #f1f1f1;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.Resizer:hover {
+  transition: all .25s ease;
+}
+.Resizer.horizontal {
+  height: 11px;
+  cursor: row-resize;
+  width: 100%;
+}
+.Resizer.horizontal:hover,
+.Resizer.vertical:hover {
+  background: #d6d6d6;
+}
+.Resizer.vertical {
+  width: 11px;
+  cursor: col-resize;
+}
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+.Resizer.disabled:hover {
+  background: #f1f1f1;
+}
+
