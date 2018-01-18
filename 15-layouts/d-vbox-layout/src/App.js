@@ -4,11 +4,14 @@ import './App.css';
 class App extends Component {
   render () {
     return (
-      <div className="layout-vbox" style={{width: 100, height: 300}}>
-        <div style={{height: 40}}>one</div>
-        <div style={{flexGrow: 1}}>two</div>
-        <div style={{flexGrow: 2}}>three</div>
-        <div>four</div>
+      <div
+        className="layout-vbox"
+        style={{width: 100, height: 300, color: "white"}}
+      >
+        <div style={{height: 40, background: "#df8f2e"}}>fixed</div>
+        <div style={{flexGrow: 1, background: "#f26f38"}}>flex 1</div>
+        <div style={{flexGrow: 2, background: "#ee4d77"}}>flex 2</div>
+        <div style={{background: "#b15b90"}}>wrap</div>
       </div>
     );
   }
