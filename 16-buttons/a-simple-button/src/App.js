@@ -5,15 +5,16 @@ class App extends Component {
     return (
       <div>
         <div className="top-toolbar">
-          <button onClick={this.onAddUser}>Add User</button>
+          <button onClick={this.handleAddUser}>Add User</button>
         </div>
       </div>
     );
   }
-  onAddUser = () => {
+  handleAddUser = () => {
     // handle button click
-    alert('add user');
+    console.log('add user');
   }
 }
+
 export default App;
 
