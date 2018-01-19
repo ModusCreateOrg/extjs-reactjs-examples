@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class SegmentedBtn extends Component {
+class SegmentedButton extends Component {
   static defaultProps = {
     pressed: [],
     allowDepress: false
@@ -63,4 +63,5 @@ class SegmentedBtn extends Component {
     }
   }
 }
-export default SegmentedBtn;
+
+export default SegmentedButton;
