@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import SegmentedBtn from './SegmentedBtn';
+import SegmentedButton from './SegmentedButton';
 import './App.css';
 
 const App = () => {
   return (
-    <SegmentedBtn>
+    <SegmentedButton>
       <button value="one">One</button>
       <button value="two">Two</button>
       <button value="three">Three</button>
-    </SegmentedBtn>
+    </SegmentedButton>
   );
 }
 
