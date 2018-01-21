@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
 class CustomEditor extends Component {
   state = {}
+
   componentDidMount () {
     this.refs.input.addEventListener('blur', this.onBlur);
     this.focus();
@@ -11,6 +13,7 @@ class CustomEditor extends Component {
   componentWillUnmount () {
     this.refs.input.removeEventListener('blur', this.onBlur);
   }
+
   focus () {
     // focus the input slightly after dbl-click
     setTimeout(() => {
@@ -18,6 +21,7 @@ class CustomEditor extends Component {
       input.focus();
     });
   }
+
   get value () {
     let {
       props,
@@ -39,6 +43,7 @@ class CustomEditor extends Component {
       value: event.target.value
     });
   }
+  
   render () {
     return <input
       ref="input"
@@ -49,5 +54,6 @@ class CustomEditor extends Component {
     />;
   }
 }
+
 export default CustomEditor;
 
