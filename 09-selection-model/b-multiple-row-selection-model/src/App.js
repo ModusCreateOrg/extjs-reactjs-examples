@@ -3,9 +3,10 @@ import { AgGridReact } from 'ag-grid-react';
 import getData from './data';
 import 'ag-grid/dist/styles/ag-grid.css';
 import 'ag-grid/dist/styles/ag-theme-material.css';
-import 'ag-grid/dist/styles/theme-material.css';
+
 const { data } = getData();
-class Grid extends Component {
+
+class App extends Component {
   columns = [
     {
       headerName: 'Name',
@@ -27,10 +28,11 @@ class Grid extends Component {
           containerStyle={{height: '400px'}}
           columnDefs={this.columns}
           rowData={data}
+          rowSelection="multiple"
         />
       </div>
     );
   }
 }
-export default Grid;
 
+export default App;
