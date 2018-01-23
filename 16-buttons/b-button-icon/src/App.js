@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import FontAwesome from '@fortawesome/react-fontawesome'
-import { faUserPlus } from '@fortawesome/fontawesome-free-solid'
+import FontAwesome from '@fortawesome/react-fontawesome';
+import { faUserPlus } from '@fortawesome/fontawesome-free-solid';
+
 class App extends Component {
   render () {
     const style = {
       marginRight: '12px' // inline style example
     };
+
     return (
       <div>
         <div className="top-toolbar">
-          <button onClick={this.onAddUser}>
+          <button onClick={this.handleAddUser}>
             <FontAwesome icon={faUserPlus} style={style} />
             Add User
           </button>
@@ -17,10 +19,11 @@ class App extends Component {
       </div>
     );
   }
-  onAddUser = () => {
+  handleAddUser = () => {
     // handle button click
-    alert('add user');
+    console.log('add user');
   }
 }
+
 export default App;
 

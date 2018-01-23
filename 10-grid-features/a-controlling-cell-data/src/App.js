@@ -1,10 +1,38 @@
 import React, { Component } from 'react';
-import Grid from './Grid';
+import { AgGridReact } from 'ag-grid-react';
+import getData from './data';
+import 'ag-grid/dist/styles/ag-grid.css';
+import 'ag-grid/dist/styles/ag-theme-material.css';
+
+const { data } = getData();
 
 class App extends Component {
-  render() {
+  columns = [
+    {
+      headerName: 'Name',
+      field: 'name'
+    },
+    {
+      headerName: 'Company',
+      field: 'company'
+    },
+    {
+      headerName: 'Email',
+      field: 'email',
+      cellRenderer: params => {
+        return `<a href="mailto:${params.value}">${params.value}</a>`;
+      }
+    }
+  ]
+  render () {
     return (
-      <Grid />
+      <div className="ag-theme-material">
+        <AgGridReact
+          containerStyle={{height: '400px'}}
+          columnDefs={this.columns}
+          rowData={data}
+        />
+      </div>
     );
   }
 }

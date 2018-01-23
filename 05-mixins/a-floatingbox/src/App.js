@@ -1,13 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Box from './Box'
+import Box from './Box';
 
-class App extends Component {
-  render() {
-    return (
-      <Box float/>
-    )
-  }
-}
-
-export default App;
+export default () => <Box float/>;

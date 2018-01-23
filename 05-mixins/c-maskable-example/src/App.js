@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import Comments from './Comments'
+import React from 'react';
+import Mask from './Mask';
+import NetworkView from './NetworkView';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <Comments/>
-    );
-  }
-}
+const App = () => (
+  <Mask render={({onBeforeLoad, onLoad}) => (
+    <NetworkView
+      onBeforeLoad={onBeforeLoad} onLoad={onLoad}
+    />
+  )}/>
+);
 
 export default App;

@@ -1,30 +1,40 @@
 import React, { Component } from 'react';
 import { Dropdown } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
+
 const { Divider, Item, Menu } = Dropdown;
-class Main extends Component {
+
+class App extends Component {
   render () {
     return (
       <div>
         <div className="top-toolbar">
-          <Dropdown text="Add User" icon="add user" floating labeled button className="icon">
+          <Dropdown
+            text="User Controls"
+            icon="add user"
+            className="icon"
+            floating labeled button
+          >
             <Menu>
-              <Item onClick={this.onFindUser}>Find User</Item>
+              <Item onClick={this.handleAddUser}>Add User</Item>
               <Divider />
-              <Item onClick={this.doSomething}>Do Something</Item>
+              <Item onClick={this.handleRemoveUser}>Remove User</Item>
             </Menu>
           </Dropdown>
         </div>
       </div>
     );
   }
-  onFindUser = () => {
+  
+  handleAddUser = () => {
     // handle menu item click
-    alert('find user');
+    console.log('add user')
   }
-  doSomething = () => {
+  handleRemoveUser = () => {
     // handle menu item click
-    alert('do something');
+    console.log('remove user');
   }
 }
-export default Main;
+
+export default App;
 

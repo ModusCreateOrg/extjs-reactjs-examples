@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css'
+import './App.css';
+
 class Toggle extends Component {
  state = {
    checked: !!this.props.checked
@@ -22,6 +23,7 @@ class Toggle extends Component {
    });
  }
 }
+
 class App extends Component {
  render () {
    return (
