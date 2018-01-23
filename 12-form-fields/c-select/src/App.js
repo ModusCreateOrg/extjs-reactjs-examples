@@ -8,17 +8,24 @@ class App extends Component {
   options = ['Solids', 'Stripes']
   render() {
     return (
-      <select value={this.state.value} onChange={e => this.onSelectChange(e)}>
+      <select 
+        value={this.state.value}
+        onChange={e => this.handleSelectChange(e)}
+      >
         {[
-          <option disabled key="_default" value="_default">select one...</option>,
+          <option disabled key="_default" value="_default">
+            select one...
+          </option>,
           ...this.options.map(
-            item => <option key={item} value={item.toLowerCase()}>{item}</option>
+            item => (
+              <option key={item} value={item.toLowerCase()}>{item}</option>
+            )
           )
         ]}
       </select>
     );
   }
-  onSelectChange (e) {
+  handleSelectChange (e) {
     this.setState({
       value: e.target.value
     });

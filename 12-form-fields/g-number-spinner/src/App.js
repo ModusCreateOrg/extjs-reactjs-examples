@@ -8,13 +8,13 @@ class App extends Component {
    return <input
      type="number"
      value={this.state.value}
-     onChange={e => this.onChange(e)}
+     onChange={e => this.handleChange(e)}
      step="10"
      min="0"
      max="100"
    />;
  }
- onChange (e) {
+ handleChange (e) {
    this.setState({
      value: e.target.value
    });
