@@ -5,7 +5,7 @@ class App extends Component {
    username: '',
    password: ''
  }
- onSubmit = (e) => {
+ handleSubmit = (e) => {
    e.preventDefault();
    //   fetch('https://yourserver.url/submit-json', {
    //     method: 'post',
@@ -17,7 +17,7 @@ class App extends Component {
       alert('login successful');
    }, 1000)
  }
- onChange = (e) => {
+ handleChange = (e) => {
    const { target: { name, value }} = e;
    this.setState({
      [name]: value
@@ -26,13 +26,13 @@ class App extends Component {
  render () {
    const { state } = this;
    return (
-     <form onSubmit={this.onSubmit}>
+     <form onSubmit={this.handleSubmit}>
        <input
          type="text"
          value={state.username.value}
          name="username"
          placeholder="username..."
-         onChange={this.onChange}
+         onChange={this.handleChange}
          required
        />
        <br />
@@ -41,7 +41,7 @@ class App extends Component {
          value={state.password.value}
          name="password"
          placeholder="password..."
-         onChange={this.onChange}
+         onChange={this.handleChange}
          required
        />
        <br />

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import '../node_modules/purecss/build/base.css';
 import '../node_modules/purecss/build/forms.css';
+import './Field.css';
 
 class Field extends Component {
   static defaultProps = {
@@ -12,6 +12,7 @@ class Field extends Component {
     invalidmsg: null,
     value: this.props.value
   }
+
   render () {
     const {
       name,
@@ -38,6 +39,7 @@ class Field extends Component {
       </div>
     );
   }
+  
   handleChange (e, onChange) {
     this.setState({
       value: e.target.value
@@ -61,27 +63,5 @@ class Field extends Component {
     this.setState({ invalidmsg });
   }
 }
- 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Field
-          required
-          name="test"
-          label="required text field "
-          onChange={(e) => console.log('change', e)}
-        /><br/>
-        <Field
-          type="number"
-          max={20}
-          name="test"
-          label="number field (20 max) "
-          onChange={(e) => console.log('change', e)}
-        />
-      </div>
-    )
-  }
-}
 
-export default App;
+export default Field;
