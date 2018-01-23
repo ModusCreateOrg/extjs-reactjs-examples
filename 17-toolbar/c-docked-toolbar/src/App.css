@@ -2,14 +2,8 @@
   display: flex;
   flex-direction: column;
 }
-.toolbar {
-  display: flex;
-  background-color: #d6e2ea;
-  padding: 6px 8px;
-}
 .body {
   flex: 1;
   overflow-y: auto;
   padding: 8px;
 }
-

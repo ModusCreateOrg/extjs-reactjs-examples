@@ -1,17 +1,3 @@
-.docked-horizontal {
-  display: flex;
-  flex-direction: column;
-}
-.toolbar {
-  display: flex;
-  background-color: #d6e2ea;
-  padding: 6px 8px;
-}
-.body {
-  flex: 1;
-  overflow-y: auto;
-  padding: 8px;
-}
 .docked-vertical {
   display: flex;
 }
@@ -19,4 +5,9 @@
   display: inline-flex;
   flex-direction: column;
 }
-
+.body {
+  flex: 1;
+  overflow-x: auto;
+  padding: 8px;
+  white-space: nowrap;
+}
