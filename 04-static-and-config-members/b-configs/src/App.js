@@ -1,34 +1,16 @@
 import React, { Component } from 'react';
+import Foo from './Foo';
 import logo from './logo.svg'
 import './App.css';
-
-class Foo {
-  constructor (config) {
-    Object.assign(this, config);
-  }
-    
-  get foo () {
-    return this._foo;
-  }
-    
-  set foo (foo = []) {
-    if (foo && !Array.isArray(foo)) {
-      foo = [ foo ];
-    }
-        
-    this._foo = foo;
-    // react to foo change
-  }
-}
 
 const instance = new Foo({
   foo : 'bar'
 });
 let value = instance.foo; // would be [ 'bar' ]
-console.log('value', value)
+console.log('value', value);
 instance.foo = 'foobar';
 value = instance.foo; // would be [ 'foobar' ]
-console.log('value', value)
+console.log('value', value);
 
 
 class App extends Component {

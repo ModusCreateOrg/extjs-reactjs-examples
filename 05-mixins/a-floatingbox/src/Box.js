@@ -1,21 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react';
+import withFloat from './util/withFloat';
 
-function canFloat (WrappedComponent) {
- return class Enhanced extends WrappedComponent {
-   float () {
-     this.setState({
-       cls: 'floating'
-     });
-   }
-  
-   render () {
-     return super.render();
-   }
- }
-}
-
-class Box extends React.Component {
+export class Box extends Component {
   state = {}
+
   componentWillMount() {
     const { float } = this.props;
     
@@ -28,5 +16,5 @@ class Box extends React.Component {
     return <div className={this.state.cls}>My Box</div>;
   }
 }
-export default canFloat(Box);
 
+export default withFloat(Box);

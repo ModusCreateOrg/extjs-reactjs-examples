@@ -11,7 +11,7 @@ class MyComponent extends Component {
     return (
       <div>
         <input
-          value={text}
+          defaultValue={text}
           ref={ input => this.textInput = input }
         />
         <button onClick={this.onBtnClick}>Select Text</button>

@@ -10,7 +10,7 @@ class MyComponent extends Component {
 
     return (
       <div>
-        <input value={text} />
+        <input defaultValue={text} />
         <button onClick={this.onBtnClick}>Set Text</button>
       </div>
     )
