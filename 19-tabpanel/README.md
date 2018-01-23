@@ -1,12 +1,12 @@
-# 14 Form Validation
+# 19 TabPanel
 
 This subdirectory contains an app already generated with create-react-app, as
-described in the Validation blog post (link here)
+described in the TabPanel blog post (link here)
 
 To run the app server:
 
 ```
-$ cd a-validation
+$ cd a-tabpanel
 $ npm install
 $ npm start
 ```
