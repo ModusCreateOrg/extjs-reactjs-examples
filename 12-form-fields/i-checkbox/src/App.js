@@ -1,24 +1,6 @@
 import React, { Component } from 'react';
+import Checkbox from './Checkbox';
 
-class Checkbox extends Component {
- state = {
-   checked: !!this.props.checked
- }
- render () {
-   return <input
-     type="checkbox"
-     name={this.props.name}
-     value={this.props.value}
-     checked={this.state.checked}
-     onChange={e => this.onFieldChange(e)}
-   />
- }
- onFieldChange (e) {
-   this.setState({
-     checked: e.target.checked
-   });
- }
-}
 class App extends Component {
  render () {
    return (

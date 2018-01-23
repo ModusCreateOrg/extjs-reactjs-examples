@@ -9,10 +9,10 @@ class App extends Component {
    return <input
      type="date"
      value={this.state.value}
-     onChange={e => this.onChange(e)}
+     onChange={e => this.handleChange(e)}
    />;
  }
- onChange (e) {
+ handleChange (e) {
    this.setState({
      value: e.target.value
    });

@@ -8,7 +8,7 @@ class App extends Component {
  render() {
    return (
      <input
-       onChange={e => this.onChange(e)}
+       onChange={e => this.handleChange(e)}
        type="range"
        value={this.state.value}
        min="0"
@@ -17,7 +17,7 @@ class App extends Component {
      />
    );
  }
- onChange (e) {
+ handleChange (e) {
    this.setState({
      value: e.target.value
    });
