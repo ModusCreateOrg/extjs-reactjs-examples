@@ -7,6 +7,7 @@
     "react-dom": "^16.2.0",
     "react-popper": "^0.7.5",
     "react-scripts": "1.1.0",
+    "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.77.2"
   },
   "scripts": {
