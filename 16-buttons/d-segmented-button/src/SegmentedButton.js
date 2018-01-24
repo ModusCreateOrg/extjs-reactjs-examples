@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import './SegmentedButton.css';
 
 class SegmentedButton extends Component {
   static defaultProps = {
