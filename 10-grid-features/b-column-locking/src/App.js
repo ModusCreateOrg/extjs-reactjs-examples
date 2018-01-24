@@ -22,6 +22,7 @@ class App extends Component {
       field: 'email'
     }
   ]
+  
   render () {
     return (
       <div className="ag-theme-material">

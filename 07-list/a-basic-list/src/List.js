@@ -15,7 +15,7 @@ class List extends Component {
       <div
         key={item.id}
         className={this.getItemClassName(item)}
-        onClick={this.onItemClick.bind(this, item)}
+        onClick={this.handleItemClick.bind(this, item)}
       >
         <div className="main">{item.lastName}, {item.firstName}</div>
         <div className="secondary">
@@ -28,11 +28,11 @@ class List extends Component {
   getItemClassName (item) {
     return 'list-item';
   }
-  onItemClick (item, e) {
+  handleItemClick (item, e) {
     e.preventDefault();
-    const { onItemClick } = this.props;
-    if (typeof onItemClick === 'function') {
-      onItemClick(item, e);
+    const { handleItemClick } = this.props;
+    if (typeof handleItemClick === 'function') {
+      handleItemClick(item, e);
     }
   }
 }
