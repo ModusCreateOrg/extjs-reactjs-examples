@@ -1,0 +1,7 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+.body-el {
+  padding: 8px;
+}
