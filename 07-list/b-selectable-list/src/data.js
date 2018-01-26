@@ -1,0 +1,61 @@
+export default [{
+  id: 1,
+  firstName: 'Haydee',
+  lastName: 'Fennell',
+  company: 'NitroSystems',
+  hireDate: '27/11/2002'
+}, {
+  id: 2,
+  firstName: 'Stan',
+  lastName: 'Garling',
+  company: 'Ulogica',
+  hireDate: '13/05/2001'
+}, {
+  id: 3,
+  firstName: 'Gavin',
+  lastName: 'Paquette',
+  company: 'MediaDime',
+  hireDate: '27/01/2008'
+}, {
+  id: 4,
+  firstName: 'Vernon',
+  lastName: 'Drolet',
+  company: 'Qualcore',
+  hireDate: '04/05/1998'
+}, {
+  id: 5,
+  firstName: 'Marcus',
+  lastName: 'Brier',
+  company: 'GrafixMedia',
+  hireDate: '30/08/1995'
+}, {
+  id: 6,
+  firstName: 'Haley',
+  lastName: 'Pullman',
+  company: 'Eluxa',
+  hireDate: '05/06/2007'
+}, {
+  id: 7,
+  firstName: 'Raylene',
+  lastName: 'Seal',
+  company: 'OpenServ',
+  hireDate: '28/12/2005'
+}, {
+  id: 8,
+  firstName: 'Dannielle',
+  lastName: 'Sager',
+  company: 'Infratouch',
+  hireDate: '18/12/1997'
+}, {
+  id: 9,
+  firstName: 'Madelyn',
+  lastName: 'Sprowl',
+  company: 'Hivemind',
+  hireDate: '09/12/1992'
+}, {
+  id: 10,
+  firstName: 'Drew',
+  lastName: 'Hollis',
+  company: 'Hivemind',
+  hireDate: '01/07/1993'
+}];
