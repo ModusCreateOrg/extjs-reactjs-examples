@@ -1,0 +1,30 @@
+.list-item {
+  border-bottom: 1px solid #eaeaea;
+  padding: 5px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+}
+.list-item.item-tools-left {
+  flex-direction: row-reverse;
+}
+.list-item.item-tools-left .tools {
+  margin-right: 12px;
+}
+.list-item .body {
+  flex: 1;
+}
+.list-item .main {
+  font-weight: bold;
+}
+.list-item .meta {
+  color: #a5adaf;
+}
+.list-item .tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-item .tools > * {
+  margin-left: 8px;
+}
