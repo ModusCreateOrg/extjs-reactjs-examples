@@ -1,76 +1,24 @@
-.u-position-absolute {
-  position: absolute;
+.react-sanfona {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}  
+.react-sanfona-item-title {
+  background-color: #fff4f4;
+  border-top: 1px solid #ccc;
+  color: #555;
+  padding: 20px;
+  text-transform: uppercase;
+}  
+.react-sanfona-item:first-child .react-sanfona-item-title {
+  border-top: none;
 }
-.u-position-relative {
-  position: relative;
-}
-.accordion {
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-radius: 2px;
-}
-.accordion__item + .accordion__item {
-  border-top: 1px solid rgba(0, 0, 0, .1);
-}
-.accordion__item--has-icon {
-  position: relative;
-}
-.accordion__title {
-    background-color: #f4f4f4;
-    color: #444;
-    cursor: pointer;
-    padding: 12px 18px;
-    border: none;
-}
-.accordion__title > h3 {
-  margin: 0;
-}
-.accordion__title:hover {
-    background-color: #ddd;
-}
-.accordion__body {
-    padding: 20px;
-}
-.accordion__title > *:last-child,
-.accordion__body > *:last-child {
-    margin-bottom: 0;
-}
-.accordion__arrow {
-    display: inline-block;
-    position: relative;
-    width: 24px;
-    height: 12px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    margin-top: -6px;
-}
-.accordion__arrow::after,
-.accordion__arrow::before {
-    display: block;
-    position: absolute;
-    top: 50%;
-    width: 10px;
-    height: 2px;
-    background-color: currentColor;
-    content: '';
-}
-.accordion__arrow::before {
-    left: 4px;
-    transform: rotate(45deg);
-}
-[aria-expanded="true"] .accordion__arrow::before,
-[aria-selected="true"] .accordion__arrow::before {
-    transform: rotate(-45deg);
-}
-.accordion__arrow::after {
-    right: 4px;
-    transform: rotate(-45deg);
-}
-[aria-expanded="true"] .accordion__arrow::after,
-[aria-selected="true"] .accordion__arrow::after {
-    transform: rotate(45deg);
-}
-.accordion__arrow::before, .accordion__arrow::after {
-    transition: transform .25s ease, -webkit-transform .25s ease;
+.react-sanfona-item-expanded .react-sanfona-item-title {
+  background-color: #ed5853;
+  color: #fff;
 }
 
+.react-sanfona-item-body-wrapper {
+  color: #555;
+  padding: 20px;
+  position: relative;
+}

@@ -1,57 +1,18 @@
 import React, { Component } from 'react';
-import '../node_modules/react-accessible-accordion/dist/react-accessible-accordion.css';
+import { Accordion, AccordionItem } from 'react-sanfona';
 import './App.css';
 
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemTitle,
-    AccordionItemBody,
-} from 'react-accessible-accordion';
 class App extends Component {
   render () {
     return (
-      <div style={{width: 600}}>
-        <Accordion>
-          <AccordionItem>
-              <AccordionItemTitle>
-                <h3 className="u-position-relative">
-                  Accessible Accordion
-                  <div className="accordion__arrow" role="presentation" />
-                </h3>
-              </AccordionItemTitle>
-            <AccordionItemBody>
-              <p>
-                Accessible Accordion component for React. Inspired by <a
-                  href="https://github.com/react-component/collapse"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >rc-collapse</a> and <a
-                  href="https://github.com/daviferreira/react-sanfona"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >react-sanfona</a>.
-              </p>
-            </AccordionItemBody>
-          </AccordionItem>
-          <AccordionItem className="accordion__item">
-            <AccordionItemTitle>
-              <h3 className=" u-position-relative u-margin-bottom-s">
-                Components
-                <div className="accordion__arrow" role="presentation" />
-              </h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-              <ul>
-                <li>Accordion</li>
-                <li>AccordionItem</li>
-                <li>AccordionItemTitle</li>
-                <li>AccordionItemBody</li>
-              </ul>
-            </AccordionItemBody>
-          </AccordionItem>
-        </Accordion>
-      </div>
+      <Accordion style={{width: '400px'}}>
+        {[1, 2, 3, 4, 5].map(item => (
+            <AccordionItem title={`Item ${item}`} expanded={item === 1}>
+                {`Item ${item} content`}
+            </AccordionItem>
+          )
+        )}
+      </Accordion>
     );
   }
 }
