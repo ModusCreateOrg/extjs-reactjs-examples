@@ -1,0 +1,45 @@
+.tab-panel {
+  display: flex;
+}
+.tab-panel.top {
+  flex-direction: column;
+}
+.tab-panel.bottom {
+  flex-direction: column-reverse;
+}
+.tab-panel.left {
+  flex-direction: row;
+}
+.tab-panel.right {
+  flex-direction: row-reverse;
+}
+ 
+.tab-strip {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: flex-start;
+}
+.tab-strip.indicator {
+  justify-content: center;
+}
+.tab-panel.top .tab-strip,
+.tab-panel.bottom .tab-strip {
+  flex-direction: row;
+}
+.tab-panel.left .tab-strip,
+.tab-panel.right .tab-strip {
+  flex-direction: column;
+}
+ 
+.card-ct {
+  flex: 1;
+  display: flex;
+} 
+.card {
+  padding: 12px;
+  flex: 1 0 auto;
+  display: none;
+}
+.card.active {
+  display: block !important;
+}
