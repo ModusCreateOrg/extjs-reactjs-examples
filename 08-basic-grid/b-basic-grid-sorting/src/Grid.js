@@ -24,7 +24,7 @@ class Grid extends Component {
         </thead>
         <tbody>
           {
-            this.sortData(data, sort).map(item => (
+            Grid.sortData(data, sort).map(item => (
               <tr key={item.id}>
                 <td>{item.name}</td>
                 <td>{item.company}</td>
@@ -57,7 +57,7 @@ class Grid extends Component {
     });
   }
 
-  sortData (data, sort) {
+  static sortData (data, sort) {
     if (sort) {
       const { dataIndex, direction } = sort;
       const dir = direction === 'ASC' ? 1 : -1;
