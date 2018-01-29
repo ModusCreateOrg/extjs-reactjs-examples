@@ -15,21 +15,17 @@ class Field extends Component {
 
   render () {
     const {
-      // name,
-      // id = name,
       label,
       onChange
     } = this.props;
     const { value, invalidMsg } = this.state;
     const inputProps = {
       ...this.props,
-      //id,
       value,
       onChange: (e) => this.handleChange(e, onChange)
     };
     return (
       <div className="pure-control-group">
-        {/* <label htmlFor={id}>{label} */}
         <label>{label}
           <input {...inputProps} style={{minWidth: '200px'}} />
           {
