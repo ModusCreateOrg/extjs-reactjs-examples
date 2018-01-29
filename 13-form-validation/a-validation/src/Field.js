@@ -15,27 +15,29 @@ class Field extends Component {
 
   render () {
     const {
-      name,
-      id = name,
+      // name,
+      // id = name,
       label,
       onChange
     } = this.props;
     const { value, invalidMsg } = this.state;
     const inputProps = {
       ...this.props,
-      id,
+      //id,
       value,
       onChange: (e) => this.handleChange(e, onChange)
     };
     return (
       <div className="pure-control-group">
-        <label htmlFor={id}>{label}</label>
-        <input {...inputProps} style={{minWidth: '200px'}} />
-        {
-          invalidMsg ? 
-            <span className="pure-form-message-inline">{invalidMsg}</span> : 
-          null
-        }
+        {/* <label htmlFor={id}>{label} */}
+        <label>{label}
+          <input {...inputProps} style={{minWidth: '200px'}} />
+          {
+            invalidMsg ? 
+              <span className="pure-form-message-inline">{invalidMsg}</span> : 
+            null
+          }
+        </label>
       </div>
     );
   }
