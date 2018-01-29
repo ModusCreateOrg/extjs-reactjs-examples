@@ -9,7 +9,7 @@ class Field extends Component {
     type: 'text'
   }
   state = {
-    invalidmsg: null,
+    invalidMsg: null,
     value: this.props.value
   }
 
@@ -20,7 +20,7 @@ class Field extends Component {
       label,
       onChange
     } = this.props;
-    const { value, invalidmsg } = this.state;
+    const { value, invalidMsg } = this.state;
     const inputProps = {
       ...this.props,
       id,
@@ -32,8 +32,8 @@ class Field extends Component {
         <label htmlFor={id}>{label}</label>
         <input {...inputProps} style={{minWidth: '200px'}} />
         {
-          invalidmsg ? 
-            <span className="pure-form-message-inline">{invalidmsg}</span> : 
+          invalidMsg ? 
+            <span className="pure-form-message-inline">{invalidMsg}</span> : 
           null
         }
       </div>
@@ -53,14 +53,14 @@ class Field extends Component {
     const { target } = e,
           { validity } = target,
           { valueMissing, valid } = validity;
-    let   invalidmsg;
+    let   invalidMsg;
  
     if (valueMissing) {
-      invalidmsg = 'This is a required field';
+      invalidMsg = 'This is a required field';
     } else if (!valid) {
-      invalidmsg = this.props.invalidmsg || target.validationMessage;
+      invalidMsg = this.props.invalidMsg || target.validationMessage;
     }
-    this.setState({ invalidmsg });
+    this.setState({ invalidMsg });
   }
 }
 
