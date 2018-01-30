@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  height: 100%;
+}
+
+.float-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  display: none;
+}
+.modal {
+  background-color: rgba(0, 0, 0, .1);
+  pointer-events: auto;
+}
+.modal-msg {
+  padding: 12px 24px 12px 0;
+  background: #ffffff;
+  border: 3px solid #61dafb;
+  color: #555;
+}
+.modal-msg > * {
+  vertical-align: middle;
+}
+.show {
+  display: flex;
+}

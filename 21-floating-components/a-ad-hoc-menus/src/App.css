@@ -27,20 +27,3 @@
   to { transform: rotate(360deg); }
 }
 
-.menu {
-  background: #d4d4d4;
-  position: absolute;
-}
-.menu > hr {
-  margin : 0 8px;
-}
-.menu-item {
-  color: #555;
-  padding: 8px;
-  cursor: pointer;
-  font-size: 14px;
-}
-.menu-item:hover {
-  background: #ececec;
-}
-
