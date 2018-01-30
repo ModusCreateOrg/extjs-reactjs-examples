@@ -12,9 +12,9 @@ class Toolbar extends Component {
   render() {
     return (
       <div style={toolbarStyle}>
-        <button>Left</button>
+        <button>Top</button>
         <div style={{ flex: 1 }}></div>
-        <button>Right</button>
+        <button>Bottom</button>
       </div>
     );
   }
