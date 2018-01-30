@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Tooltip from './Tooltip';
 import './App.css';
-
-const Tooltip = ({ children, tiptext, position = 't-t'}) => {
-  return <div data-tiptext={tiptext} className={`tooltip ${position}`}>
-    {children}
-  </div>;
-}
 
 class App extends Component {
   render() {
@@ -15,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to&nbsp;
-            <Tooltip tiptext="Example"> React</Tooltip>
+            <Tooltip tiptext="Example">React</Tooltip>
           </h1>
         </header>
         <p className="App-intro">

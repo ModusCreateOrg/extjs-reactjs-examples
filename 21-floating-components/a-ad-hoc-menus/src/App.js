@@ -1,48 +1,12 @@
 import React, { Component } from 'react';
+import Menu from './Menu';
 import logo from './logo.svg';
 import './App.css';
-
-class Menu extends Component {
-  state = {}
-
-  showMenu = (show) => {
-    this.setState({
-      show : show === true
-    });
-  }
-
-  componentWillReceiveProps (props) {
-    this.showMenu(props.show);
-  }
-  componentDidMount () {
-    document.body.addEventListener('click', this.showMenu, false);
-  }
-  componentWillUnmount () {
-    document.body.removeEventListener('click', this.showMenu, false);
-  }
-  
-  render() {
-    const { x, y, show : menuShow } = this.props;
-    const { show = menuShow } = this.state;
-    const menuStyle = {
-      top      : y,
-      left     : x
-    };
-
-    return show ?
-      (
-        <div style={menuStyle} className="menu">
-          {this.props.children}
-        </div>
-      ) :
-      null;
-  }
-}
 
 class App extends Component {
   state = {}
 
-  onContextMenu = (e) => {
+  handleContextMenu = (e) => {
     e.preventDefault();
 
     const { clientX : x, clientY : y } = e;
@@ -56,7 +20,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header" onContextMenu={this.onContextMenu}>
+        <header className="App-header" onContextMenu={this.handleContextMenu}>
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
 

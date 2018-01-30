@@ -1,0 +1,17 @@
+.menu {
+  background: white;
+  position: absolute;
+}
+.menu > hr {
+  margin: 5px 0;
+  border: 1px solid #ececec;
+}
+.menu-item {
+  color: #555;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.menu-item:hover {
+  background: #c7c7c7;
+}
