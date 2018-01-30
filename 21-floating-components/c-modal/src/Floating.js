@@ -5,7 +5,7 @@ import './Floating.css';
 
 class Floating extends Component {
   state = {
-    show: Boolean(this.props.show)
+    show: !!this.props.show
   };
 
   componentWillReceiveProps ({ show }) {
