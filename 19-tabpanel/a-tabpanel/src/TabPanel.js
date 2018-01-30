@@ -35,15 +35,17 @@ class TabPanel extends Component {
         </div>
         <div className="card-ct">
           {React.Children.map(children, (child, i) => {
-            const { className } = child.props,
-              isActive = i === activetab ? 'active' : '',
-              cardProps = {
-                ...child.props,
+            let { className } = child.props;
+            className = className ? ` ${className}` : '';
 
-                className: `${className} card ${isActive}`,
-                cardindex: i,
-                activetab: activetab
-              };
+            const isActive = i === activetab ? ' active' : '';
+            const cardProps = {
+              ...child.props,
+
+              className: `card${className}${isActive}`,
+              cardindex: i,
+              activetab: activetab
+            };
 
             return React.cloneElement(child, cardProps);
           })}

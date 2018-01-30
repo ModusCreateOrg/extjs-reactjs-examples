@@ -30,6 +30,27 @@
 .tab-panel.right .tab-strip {
   flex-direction: column;
 }
+
+.tab-panel.top .tab,
+.tab-panel.bottom .tab {
+  padding: 12px 6px;
+}
+.tab-panel.left .tab,
+.tab-panel.right .tab {
+  padding: 6px 12px;
+}
+.tab-panel.top .tab.active {
+  border-bottom-color: #1e8bfb;
+}
+.tab-panel.left .tab.active {
+  border-right-color: #1e8bfb;
+}
+.tab-panel.bottom .tab.active {
+  border-top-color: #1e8bfb;
+}
+.tab-panel.right .tab.active {
+  border-left-color: #1e8bfb;
+}
  
 .card-ct {
   flex: 1;

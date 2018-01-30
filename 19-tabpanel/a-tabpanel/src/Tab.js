@@ -5,10 +5,10 @@ import './Tab.css';
 
 const Tab = props => {
   const { tabtext, icon, activetab, cardindex, onClick } = props,
-        isActive = activetab === cardindex ? 'active' : '';
+        isActive = activetab === cardindex ? ' active' : '';
 
   return (
-    <div className={`tab ${isActive}`} onClick={onClick}>
+    <div className={`tab${isActive}`} onClick={onClick}>
       {icon ? <FontAwesome icon={Icons[`fa${icon}`]} /> : ''}
       {tabtext}
     </div>
