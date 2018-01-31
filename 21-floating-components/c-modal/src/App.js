@@ -16,7 +16,7 @@ class App extends Component {
     const { floating } = this.state;
 
     return (
-      <div>
+      <div style={{width: '400px', height: '400px', position: 'relative'}}>
         <button onClick={this.showFloating}>Show Floating</button>
         <Floating modal show={floating} viewport closeOnModalClick>
           <div className="modal-msg">

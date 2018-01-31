@@ -23,7 +23,8 @@ class Floating extends Component {
     const { show } = this.state;
     const isModal = modal ? ' modal' : '';
     const doShow = show ? ' show' : '';
-    const clsName = `float-wrap${isModal}${doShow}`;
+    const isViewport = viewport ? ' viewport' : '';
+    const clsName = `float-wrap${isModal}${doShow}${isViewport}`;
     const props = {
       onClick: closeOnModalClick ? this.handleModalClick : null
     };
