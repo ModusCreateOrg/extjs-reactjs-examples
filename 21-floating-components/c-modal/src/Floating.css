@@ -1,11 +1,3 @@
-html {
-  height: 100%;
-}
-body {
-  position: relative;
-  height: 100%;
-}
-
 .float-wrap {
   position: absolute;
   top: 0;
@@ -27,6 +19,9 @@ body {
   background: #ffffff;
   border: 3px solid #61dafb;
   color: #555;
+}
+.viewport {
+  position: fixed;
 }
 .modal-msg > * {
   vertical-align: middle;

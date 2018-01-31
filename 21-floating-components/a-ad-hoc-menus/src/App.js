@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
-import logo from './logo.svg';
-import './App.css';
+
+const style = {
+  height: 300,
+  width: 300,
+  background: '#e02d42',
+  padding: 12,
+  color: 'white',
+  textAlign: 'center'
+}
 
 class App extends Component {
   state = {}
@@ -19,21 +26,13 @@ class App extends Component {
     const { menuShow, x, y } = this.state;
 
     return (
-      <div className="App">
-        <header className="App-header" onContextMenu={this.handleContextMenu}>
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-
-          <Menu show={menuShow} x={x} y={y}>
-            <div className="menu-item">First Menu Item</div>
-            <hr />
-            <div className="menu-item">Second Menu Item</div>
-          </Menu>
-
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div style={style} onContextMenu={this.handleContextMenu}>
+        right-click in this div to show a menu
+        <Menu show={menuShow} x={x} y={y}>
+          <div className="menu-item">First Menu Item</div>
+          <hr />
+          <div className="menu-item">Second Menu Item</div>
+        </Menu>
       </div>
     );
   }
