@@ -18,7 +18,10 @@ class Carousel extends Component {
   }
 
   render () {
-    const { children, className, position } = this.props;
+    let { className } = this.props;
+    className = className ? ` ${className}` : '';
+
+    const { children, position } = this.props;
     const { activecard } = this.state;
     const xPositions = ['top', 'bottom'],
           axis = xPositions.includes(position) ? 'x' : 'y';
@@ -26,7 +29,7 @@ class Carousel extends Component {
     return (
       <div
         {...this.props}
-        className = {`${className} carousel ${position}`}
+        className = {`carousel ${position}${className}`}
       >
         <div className={`nav-strip`}>
           {React.Children.map(children, (child, i) => {
@@ -47,15 +50,17 @@ class Carousel extends Component {
           axis={axis}
         >
           {React.Children.map(children, (child, i) => {
-            const { className } = child.props,
-                  isActive  = (i === activecard) ? 'active' : '',
-                  cardProps = {
-                    ...child.props,
-                    style     : {flex: 1},
-                    className : `${className} card ${isActive}`,
-                    cardindex : i,
-                    activecard
-                  };
+            let { className } = child.props;
+            className = className ? ` ${className}` : '';
+
+            const isActive  = (i === activecard) ? ' active' : '';
+            const cardProps = {
+              ...child.props,
+              style     : {flex: 1},
+              className : ` card${isActive}${className}`,
+              cardindex : i,
+              activecard
+            };
 
             return React.cloneElement(child, cardProps);
           })}
