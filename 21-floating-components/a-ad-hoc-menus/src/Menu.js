@@ -5,9 +5,7 @@ class Menu extends Component {
   state = {}
 
   showMenu = (show) => {
-    this.setState({
-      show: show === true
-    });
+    this.setState({ show });
   }
 
   componentWillReceiveProps ({ show }) {
