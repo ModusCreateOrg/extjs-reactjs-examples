@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Menu from './Menu';
 
 const style = {
-  height: '300px',
-  width: '300px',
+  height: 300,
+  width: 300,
   background: '#e02d42',
-  padding: '12px',
+  padding: 12,
   color: 'white',
   textAlign: 'center'
 }
