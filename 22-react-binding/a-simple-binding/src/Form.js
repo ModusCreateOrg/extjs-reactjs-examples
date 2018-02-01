@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-function capitalize(str) {
-  return str.substr(0, 1).toUpperCase() + str.substr(1);
-}
-
 class Form extends Component {
   state = {
     user: Object.assign({}, this.props.user)
@@ -32,10 +28,10 @@ class Form extends Component {
     );
   }
 
-  renderField = (state, name, label = capitalize(name)) => {
+  renderField = (state, name, label = name) => {
     return (
       <div style={{ marginBottom: '12px' }}>
-        <label>
+        <label style={{textTransform: 'capitalize'}}>
           {label}
           <input
             type="text"
