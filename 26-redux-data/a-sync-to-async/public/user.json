@@ -1,9 +1,9 @@
 {
   "id": 1,
-  "name": "Bob Smith",
-  "email": "bob@smith.com",
-  "phone": "+1 (321) 123-4567",
-  "company": "Acme Inc",
-  "department": "Engineering",
-  "title": "Senior Software Engineer"
+  "name": "Don Draper",
+  "email": "don.draper@scdp.com",
+  "phone": "+1 (212) 555-0112",
+  "company": "Sterling Cooper Draper Pryce",
+  "department": "Marketing",
+  "title": "Creative Director"
 }
