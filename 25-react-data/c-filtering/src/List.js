@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-
-import { createFilter } from './util/Filter'
-import { createSorter } from './util/Sort'
+import { createFilter } from './util/Filter';
+import { createSorter } from './util/Sort';
 
 class List extends Component {
   state = {
@@ -10,25 +9,19 @@ class List extends Component {
   }
 
   static defaultProps = {
-    filters: [
-      {
-        property: 'name',
-        value: 'dori'
-      },
-      {
-        property: 'company',
-        value: 'a'
-      }
-    ],
+    filters: [{
+      property: 'name',
+      value: 'dori'
+    }, {
+      property: 'company',
+      value: 'a'
+    }],
 
-    sorters: [
-      {
-        property: 'name'
-      },
-      {
-        property: 'company'
-      }
-    ]
+    sorters: [{
+      property: 'name'
+    }, {
+      property: 'company'
+    }]
   }
 
   componentDidMount () {
@@ -38,11 +31,11 @@ class List extends Component {
   }
 
   parseData (data) {
-    const { sorters } = this.state
+    const { sorters } = this.state;
 
     if (data && data.length) {
       if (Array.isArray(sorters) && sorters.length) {
-        data.sort(createSorter(...sorters))
+        data.sort(createSorter(...sorters));
       }
     }
 
@@ -60,15 +53,15 @@ class List extends Component {
 
     return data ?
       this.renderData(data) :
-      this.renderLoading()
+      this.renderLoading();
   }
 
   renderData (data) {
     if (data && data.length > 0) {
-      const { filters } = this.state
+      const { filters } = this.state;
 
       if (Array.isArray(filters) && filters.length) {
-        data = data.filter(createFilter(...filters))
+        data = data.filter(createFilter(...filters));
       }
 
       return (
@@ -83,12 +76,12 @@ class List extends Component {
         </div>
       );
     } else {
-      return <div>No items found</div>
+      return <div>No items found</div>;
     }
   }
 
   renderLoading () {
-    return <div>Loading...</div>
+    return <div>Loading...</div>;
   }
 }
 

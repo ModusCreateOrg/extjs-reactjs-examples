@@ -1,75 +1,67 @@
 import React, { Component } from 'react';
-
-import { createSorter } from './util/Sort'
+import { createSorter } from './util/Sort';
 
 class List extends Component {
   state = {
     sorters: this.props.sorters
-  }
+  };
 
   static defaultProps = {
-    sorters: [
-      {
-        property: 'name'
-      },
-      {
-        property: 'company'
-      }
-    ]
-  }
+    sorters: [{
+      property: 'name'
+    }, {
+      property: 'company'
+    }]
+  };
 
-  componentDidMount () {
+  componentDidMount() {
     fetch('/data.json')
       .then(res => res.json())
       .then(this.onLoad);
   }
 
-  parseData (data) {
-    const { sorters } = this.state
+  parseData(data) {
+    const { sorters } = this.state;
 
     if (data && data.length) {
       if (Array.isArray(sorters) && sorters.length) {
-        data.sort(createSorter(...sorters))
+        data.sort(createSorter(...sorters));
       }
     }
 
     return data;
   }
 
-  onLoad = (data) => {
+  onLoad = data => {
     this.setState({
       data: this.parseData(data)
     });
-  }
+  };
 
-  render () {
+  render() {
     const { data } = this.state;
 
-    return data ?
-      this.renderData(data) :
-      this.renderLoading()
+    return data ? this.renderData(data) : this.renderLoading();
   }
 
-  renderData (data) {
+  renderData(data) {
     if (data && data.length > 0) {
       return (
         <div>
-          {
-            data.map(item => (
-              <div key={item.id}>
-                <a href={`mailto:${item.email}`}>{item.name}</a> {item.company}
-              </div>
-            ))
-          }
+          {data.map(item => (
+            <div key={item.id}>
+              <a href={`mailto:${item.email}`}>{item.name}</a> {item.company}
+            </div>
+          ))}
         </div>
       );
     } else {
-      return <div>No items found</div>
+      return <div>No items found</div>;
     }
   }
 
-  renderLoading () {
-    return <div>Loading...</div>
+  renderLoading() {
+    return <div>Loading...</div>;
   }
 }
 

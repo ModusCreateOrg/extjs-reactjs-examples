@@ -1,52 +1,48 @@
 import React, { Component } from 'react';
 
 class List extends Component {
-  state = {}
+  state = {};
 
-  componentDidMount () {
+  componentDidMount() {
     fetch('/data.json')
       .then(res => res.json())
       .then(this.onLoad);
   }
 
-  parseData (data) {
+  parseData(data) {
     return data;
   }
 
-  onLoad = (data) => {
+  onLoad = data => {
     this.setState({
       data: this.parseData(data)
     });
-  }
+  };
 
-  render () {
+  render() {
     const { data } = this.state;
 
-    return data ?
-      this.renderData(data) :
-      this.renderLoading()
+    return data ? this.renderData(data) : this.renderLoading();
   }
 
-  renderData (data) {
+  renderData(data) {
     if (data && data.length > 0) {
       return (
         <div>
-          {
-            data.map(item => (
-              <div key={item.id}>
-                <a href={`mailto:${item.email}`}>{item.name}</a> {item.company}
-              </div>
-            ))
-          }
+          {data.map(item => (
+            <div key={item.id}>
+              <a href={`mailto:${item.email}`}>{item.name}</a> {item.company}
+            </div>
+          ))}
         </div>
       );
     } else {
-      return <div>No items found</div>
+      return <div>No items found</div>;
     }
   }
 
-  renderLoading () {
-    return <div>Loading...</div>
+  renderLoading() {
+    return <div>Loading...</div>;
   }
 }
 
