@@ -1,13 +1,4 @@
-import React, { Component } from 'react';
-import Form from './components/user/Form';
-import './App.css';
+import React from 'react';
+import Form from './containers/user/Update';
 
-class App extends Component {
-  render() {
-    return (
-      <Form/>
-    );
-  }
-}
-
-export default App;
+export default () => <Form />;
