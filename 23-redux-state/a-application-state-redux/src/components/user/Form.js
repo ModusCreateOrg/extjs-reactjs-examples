@@ -22,15 +22,22 @@ const renderField = (
 };
 
 const Form = props => {
+  const submit = e => {
+    e.preventDefault();
+
+    // do submit
+  };
+
   return (
     <form>
-      <div>ID: {props.id}</div>
       {renderField(props, 'name')}
       {renderField(props, 'email')}
       {renderField(props, 'phone', 'Phone Number')}
       {renderField(props, 'company')}
       {renderField(props, 'department')}
       {renderField(props, 'title')}
+
+      <button onClick={submit}>Submit</button>
     </form>
   );
 };
