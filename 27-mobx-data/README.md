@@ -1,12 +1,12 @@
-# 23 Handling Application State with Redux
+# 27 Handling Application State with MobX
 
 This subdirectory contains an app already generated with create-react-app, as
-described in the "Handling Application State with Redux"  blog post (link here)
+described in the "Handling Application State with MobX"  blog post (link here)
 
 To run the app server:
 
 ```
-$ cd a-application-state-redux
+$ cd a-sync-to-async
 $ npm install
 $ npm start
 ```
