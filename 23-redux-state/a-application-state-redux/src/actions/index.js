@@ -1,8 +1,3 @@
-import {
-  UPDATE_USER, updateUser
-} from './user';
+import { UPDATE_USER, updateUser } from './user';
 
-export {
-  UPDATE_USER, updateUser
-};
-
+export { UPDATE_USER, updateUser };
