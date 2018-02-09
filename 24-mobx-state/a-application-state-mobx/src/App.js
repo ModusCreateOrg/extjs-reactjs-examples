@@ -1,8 +1,7 @@
 import React from 'react';
 import Form from './Form';
-import { observable } from 'mobx';
 
-const user = observable({
+const user = {
   id: 1,
   name: 'Don Draper',
   email: 'don.draper@scdp.com',
@@ -10,6 +9,6 @@ const user = observable({
   company: 'Sterling Cooper Draper Pryce',
   department: 'Marketing',
   title: 'Creative Director'
-});
+};
 
-export default () => <Form user={user} />;
+export default () => <Form user={user}/>;
