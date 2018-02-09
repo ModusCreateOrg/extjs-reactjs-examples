@@ -18,9 +18,16 @@ class Form extends Component {
 
   @action
   componentWillMount() {
-    const { store, user } = this.props;
+    const { store, user, userId } = this.props;
     
     store.user = user;
+
+    if (store.fetchUser && userId) {
+      store
+        .fetchUser(userId)
+        .then(userData => (store.user = userData))
+        .catch(e => console.log(e));
+    }
   }
 
   render() {

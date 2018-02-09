@@ -1,0 +1,11 @@
+.nav-links a {
+  display: inline-block;
+  border-bottom: 4px solid transparent;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #555;
+}
+
+.active {
+  border-bottom-color: #6597ca !important;
+}

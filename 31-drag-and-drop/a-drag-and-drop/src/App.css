@@ -1,0 +1,13 @@
+.list-ct {
+  background-color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.list-item {
+  padding: 6px 10px;
+  margin: 10px 10px 0 10px;
+  cursor: pointer;
+  color: white;
+  background: #e03d49;
+}
