@@ -1,22 +1,30 @@
 import React, { Component } from 'react';
-import { action, observable } from 'mobx';
-import { observer } from 'mobx-react';
+import { action, extendObservable, observable } from 'mobx';
+import { inject, observer } from 'mobx-react';
+import UserStore from './UserStore';
 
-const DEFAULT_USER = {
-  company: '',
-  department: '',
-  mail: '',
-  name: '',
-  phone: '',
-  title: ''
-};
-
+@inject(({ store }, { user }) => {
+  return {
+    store,
+    user: user || (store && store.user)
+  };
+})
 @observer
 class Form extends Component {
-  @observable user = this.props.user || DEFAULT_USER;
+  static defaultProps = {
+    store: new UserStore(),
+    @observable user: {}
+  }
+
+  @action
+  componentWillMount() {
+    const { store, user } = this.props;
+    
+    store.user = user;
+  }
 
   render() {
-    const { user } = this;
+    const { user } = this.props.store;
 
     return (
       <form>
@@ -28,15 +36,18 @@ class Form extends Component {
         {this.renderField(user, 'title')}
 
         <button onClick={this.submit}>Submit</button>
+        <br />
       </form>
     );
   }
 
-  renderField(
-    user,
-    name,
-    label = name.substr(0, 1).toUpperCase() + name.substr(1)
-  ) {
+  renderField(user, name, label = name) {
+    if (user[name] == null) {
+      extendObservable(user, {
+        [name]: ''
+      });
+    }
+
     return (
       <div style={{ marginBottom: '12px' }}>
         <label style={{ textTransform: 'capitalize' }}>
@@ -55,10 +66,10 @@ class Form extends Component {
 
   @action.bound
   handleFieldChange(e) {
-    const { onChange } = this.props;
+    const { onChange, store } = this.props;
     const { name, value } = e.target;
 
-    this.user[name] = value;
+    store.user[name] = value;
 
     if (onChange) {
       onChange({ [name]: value });
