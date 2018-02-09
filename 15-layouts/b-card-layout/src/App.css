@@ -1,9 +1,0 @@
-.layout-card {
-  display: flex;
-  box-sizing: border-box;
-}
-
-.layout-card > * {
-  flex-grow: 1;
-}
-
