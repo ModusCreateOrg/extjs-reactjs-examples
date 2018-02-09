@@ -1,0 +1,28 @@
+/* FIT */
+.layout-fit {
+  display: flex;
+  box-sizing: border-box;
+}
+.layout-fit > * {
+  flex-grow: 1;
+}
+
+/* CARD */
+.layout-card {
+  display: flex;
+  box-sizing: border-box;
+}
+.layout-card > * {
+  flex-grow: 1;
+}
+
+/* HBOX */
+.layout-hbox {
+  display: flex;
+}
+
+/* VBOX */
+.layout-vbox {
+  display: flex;
+  flex-direction: column;
+}
