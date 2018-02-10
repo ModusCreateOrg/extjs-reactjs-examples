@@ -17,7 +17,7 @@ class Form extends Component {
   }
 
   @action
-  componentWillMount() {
+  componentDidMount() {
     const { store, user, userId } = this.props;
     
     store.user = user;
@@ -32,23 +32,24 @@ class Form extends Component {
 
   render() {
     const { user } = this.props.store;
+    const { renderField, submit } = this;
 
     return (
       <form>
-        {this.renderField(user, 'name')}
-        {this.renderField(user, 'email')}
-        {this.renderField(user, 'phone', 'Phone Number')}
-        {this.renderField(user, 'company')}
-        {this.renderField(user, 'department')}
-        {this.renderField(user, 'title')}
+        {renderField(user, 'name')}
+        {renderField(user, 'email', undefined, 'email')}
+        {renderField(user, 'phone', 'Phone Number', 'tel')}
+        {renderField(user, 'company')}
+        {renderField(user, 'department')}
+        {renderField(user, 'title')}
 
-        <button onClick={this.submit}>Submit</button>
+        <button onClick={submit}>Submit</button>
         <br />
       </form>
     );
   }
 
-  renderField(user, name, label = name) {
+  renderField = (user, name, label = name, type = 'text') => {
     if (user[name] == null) {
       extendObservable(user, {
         [name]: ''

@@ -10,14 +10,14 @@ const DEFAULT_USER = {
   title: ''
 };
 
-function user(user = DEFAULT_USER, action) {
+function user(userData = DEFAULT_USER, action) {
   switch (action.type) {
     case UPDATE_USER:
-      return Object.assign({}, user, action.change);
+      return Object.assign({}, userData, action.payload);
     case LOAD_USER:
-      return Object.assign({}, action.data);
+      return Object.assign({}, action.payload);
     default:
-      return user;
+      return userData;
   }
 }
 

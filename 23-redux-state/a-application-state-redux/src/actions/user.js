@@ -1,8 +1,8 @@
 export const UPDATE_USER = 'UPDATE_USER';
 
-export function updateUser (change) {
+export function updateUser (payload) {
   return {
-    change,
+    payload,
     type: UPDATE_USER
   };
 }

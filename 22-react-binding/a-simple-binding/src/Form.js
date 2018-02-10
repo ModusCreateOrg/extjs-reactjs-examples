@@ -17,8 +17,8 @@ class Form extends Component {
     return (
       <form>
         {renderField(state, 'name')}
-        {renderField(state, 'email')}
-        {renderField(state, 'phone', 'Phone Number')}
+        {renderField(state, 'email', undefined, 'email')}
+        {renderField(state, 'phone', 'Phone Number', 'tel')}
         {renderField(state, 'company')}
         {renderField(state, 'department')}
         {renderField(state, 'title')}
@@ -28,13 +28,13 @@ class Form extends Component {
     );
   }
 
-  renderField = (state, name, label = name) => {
+  renderField = (state, name, label = name, type = 'text') => {
     return (
       <div style={{ marginBottom: '12px' }}>
         <label style={{textTransform: 'capitalize'}}>
           {label}
           <input
-            type="text"
+            type={type}
             name={name}
             value={state.user[name] || ''}
             onChange={this.handleFieldChange}
