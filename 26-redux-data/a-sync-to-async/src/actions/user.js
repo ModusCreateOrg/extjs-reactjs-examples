@@ -7,7 +7,7 @@ export function loadUser(id) {
   return dispatch => {
     dispatch({
       type: LOADING_USER,
-      data: {
+      payload: {
         id
       }
     });
@@ -15,23 +15,23 @@ export function loadUser(id) {
     return fetch('/user.json')
       .then(res => res.json())
       .then(
-        data =>
+        payload =>
           dispatch({
             type: LOAD_USER,
-            data
+            payload
           }),
-        error =>
+        payload => // error
           dispatch({
             type: LOAD_USER_ERROR,
-            error
+            payload
           })
       );
   };
 }
 
-export function updateUser(change) {
+export function updateUser(payload) {
   return {
-    change,
+    payload,
     type: UPDATE_USER
   };
 }

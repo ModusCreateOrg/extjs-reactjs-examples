@@ -4,7 +4,7 @@ import withFloat from './util/withFloat';
 export class Box extends Component {
   state = {}
 
-  componentWillMount() {
+  componentDidMount() {
     const { float } = this.props;
     
     if (float) {

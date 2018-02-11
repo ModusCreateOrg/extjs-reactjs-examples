@@ -10,12 +10,12 @@ const DEFAULT_USER = {
   title: 'Creative Director'
 };
 
-function user(user = DEFAULT_USER, action) {
+function user(userData = DEFAULT_USER, action) {
   switch (action.type) {
     case UPDATE_USER:
-      return Object.assign({}, user, action.change);
+      return Object.assign({}, userData, action.payload);
     default:
-      return user;
+      return userData;
   }
 }
 

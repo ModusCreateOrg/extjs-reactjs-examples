@@ -1,10 +1,6 @@
 import React from 'react';
 
-const renderField = (
-  props,
-  name,
-  label = name
-) => {
+const renderField = (props, name, label = name, type = 'text') => {
   return (
     <div style={{ marginBottom: '12px' }}>
       <label style={{textTransform: 'capitalize'}}>
@@ -31,8 +27,8 @@ const Form = props => {
   return (
     <form>
       {renderField(props, 'name')}
-      {renderField(props, 'email')}
-      {renderField(props, 'phone', 'Phone Number')}
+      {renderField(props, 'email', undefined, 'email')}
+      {renderField(props, 'phone', 'Phone Number', 'tel')}
       {renderField(props, 'company')}
       {renderField(props, 'department')}
       {renderField(props, 'title')}
