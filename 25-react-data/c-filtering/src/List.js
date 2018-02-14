@@ -33,10 +33,8 @@ class List extends Component {
   parseData (data) {
     const { sorters } = this.state;
 
-    if (data && data.length) {
-      if (Array.isArray(sorters) && sorters.length) {
-        data.sort(createSorter(...sorters));
-      }
+    if (data && data.length && Array.isArray(sorters) && sorters.length) {
+      data.sort(createSorter(...sorters));
     }
 
     return data;
