@@ -1,0 +1,17 @@
+@import 'styles.scss';
+@import 'button.scss';
+
+.myContainer {
+    padding: 8px;
+    background-color: $base-color;
+}
+
+.myButton {
+  // composes: button from 'button.scss';
+  @extend .button;
+  background-color: $accent-color;
+}
+
+.myButton:hover {
+  background-color: darken($accent-color, 10%);
+}
