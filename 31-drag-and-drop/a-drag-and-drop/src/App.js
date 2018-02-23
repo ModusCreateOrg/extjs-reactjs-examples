@@ -26,7 +26,7 @@ class App extends Component {
     }] 
   }
 
-  onDragEnd = (result) => {
+  handleDragEnd = (result) => {
     // dropped outside the list
     if(!result.destination) {
        return; 
@@ -45,7 +45,7 @@ class App extends Component {
 
   render() {
     return (
-      <DragDropContext onDragEnd={this.onDragEnd}>
+      <DragDropContext onDragEnd={this.handleDragEnd}>
         <Droppable droppableId="droppable">
           {(provided, { isDraggingOver }) => (
             <div 
