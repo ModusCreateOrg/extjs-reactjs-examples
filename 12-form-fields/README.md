@@ -1,25 +1,24 @@
-# 12 Form Fields
+# 12 Ext JS to React: Form Fields
 
+In the following examples we show how to create various form fields from Ext JS
+using React
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "Form Fields" blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+## Example Projects
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+ - [a-input](./a-input): simple text field
+ - [b-textarea](./b-textarea): simple textarea
+ - [c-select](./c-select): select / option field
+ - [d-combo](./d-combo): combobox field using the `datalist` element
+ - [e-range-slider](./e-range-slider): slider field
+ - [f-datefield](./f-datefield): datefield example
+ - [g-number-spinner](./g-number-spinner): number field with spinner elements
+ - [h-radio](./h-radio): simple radio field
+ - [i-checkbox](./i-checkbox): simple checkbox field
+ - [j-toggle](./j-toggle): example of the Ext JS toggle field within React
 
-See src/App.js in each of the example directories.
+### Related Blog Article
 
-* a-input - example illustrating use of HTML5 inputs
-* b-textarea - example illustrating use of HTML5 textarea
-* c-select - example illustrating use of HTML5 select w/options
-* d-combo - example illustrating implementation of an Ext JS like combo box
-* e-range-slider - example illustrating use of HTML5 range input
-* f-datefield - example illustrating use of HTML5 date input
-* g-number-spinner - example illustrating use of HTML5 number input w/spinner
-* h-radio - example illustrating use of HTML5 radio buttons
-* h-checkbox - example illustrating use of HTML5 checkboxes
-* j-toggle - example illustrating implementation of a toggle/swtich
+[Ext JS to React: Form Fields](TBD)
 
 
 

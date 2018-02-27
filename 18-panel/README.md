@@ -1,15 +1,12 @@
-# 18 Panel
+# 18 Ext JS to React: Panel
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the Panel blog post (link here)
+The following example demonstrates how to create a collapsible panel with React
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-panel
-$ npm install
-$ npm start
-```
+ - [a-panel](./a-panel): collapsible panel
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
+
+[Ext JS to React: Panel](TBD)
 

@@ -8,6 +8,8 @@ const MyHeader = ({ text }) => {
   )
 }
 
+// A MyClass instance is created when MyComponent is created since MyComponent
+// includes a MyHeader node in the returned JSX
 const MyComponent = () => {
   return (
     <div>
@@ -19,6 +21,7 @@ const MyComponent = () => {
   )
 }
 
+// An instance of MyComponent is returned by the application's main view: App
 class App extends Component {
   render() {
     return (

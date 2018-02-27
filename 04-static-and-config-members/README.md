@@ -1,15 +1,16 @@
-# 04 Static and Config Members
+# 04 Ext JS to React: Static and Config Members
 
+The following examples show how to define components with static class members
+as well as pass configuration options
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the Static and Config Members blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+## Example Projects
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+ - [a-static-members](./a-static-members): static class methods can be defined
+ for use in a React app
+ - [b-configs](./b-configs): recreate the set / get methods for a component
+ property in React similar to what the Ext JS class system does for options
+ defined in a `config` block in an Ext JS defined class
 
-See src/App.js in each of the example directories.
+### Related Blog Article
 
-* a-static-members - simple example illustrating static members (examine the error object thrown via Chrome developer tools)
-* b-configs - simple example illustrating static members (examine output in Chrome developer tools)
-
+[Ext JS to React: Static and Config Members](https://moduscreate.com/blog/ext-js-react-static-config-members/)

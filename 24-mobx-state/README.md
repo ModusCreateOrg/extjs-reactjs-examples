@@ -1,15 +1,13 @@
-# 24 Handling Application State with MobX
+# 24 Ext JS to React: Handling Application State with MobX
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the "Handling Application State with MobX"  blog post (link here)
+The following example shows how application state can be managed using the
+popular state manager, MobX
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-application-state-redux
-$ npm install
-$ npm start
-```
+ - [a-application-state-redux](./a-application-state-redux): sample form
+ whose state and form data is furnished through MobX
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
 
+[Ext JS to React: Handling Application State with MobX](TBD)

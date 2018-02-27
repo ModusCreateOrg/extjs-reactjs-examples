@@ -1,16 +1,19 @@
-# 09 Selection Model
+# 09 Ext JS to React: Selection Model
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "Selection Model" blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+In the following examples we show how to use
+[ag-Grid](https://www.npmjs.com/package/ag-grid) to create a React grid with row
+and checkbox selection models
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+## Example Projects
 
-See src/App.js in each of the example directories.
+ - [a-single-row-selection-model](./a-single-row-selection-model): sample grid
+ with a simple row selection model
+ - [b-multiple-row-selection-model](./b-multiple-row-selection-model): sample
+ grid with a row selection model allowing multiple row selection using the Shift
+ and Ctrl (command) keys
+ - [c-checkbox-selection-model](./c-checkbox-selection-model): sample grid with
+ a checkbox selection model
 
-* a-cell-selection-model - example illustrating cell selection model Grid component
-* b-single-row-seleciton-model - example illustrating single cell selection model Grid component
-* c-mulitiple-row-selection-model - example illustrating mulitiple cell selection model Grid component
-* d-checkbox-selection-model - example illustrating checkbox selection model Grid component
+### Related Blog Article
 
+[Ext JS to React: Selection Model](https://moduscreate.com/blog/ext-js-react-selection-model/)

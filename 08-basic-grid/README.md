@@ -1,13 +1,15 @@
-# 08 Basic Grid
+# 08 Ext JS to React: Basic Grid
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "Grid" blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+The Ext JS grid component, including sorting the records by clicking on a column
+header, is recreated as a React component in the following examples
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+## Example Projects
 
-See src/App.js in each of the example directories.
+ - [a-basic-grid](./a-basic-grid): simple grid component populated by a data
+ object
+ - [b-basic-grid-sorting](./b-basic-grid-sorting): simple grid component with
+ record sorting driven by user interaction with the column headers
 
-* a-basic-grid- example illustrating basic Grid component in React
+### Related Blog Article
 
+[Ext JS to React: Basic Grid](https://moduscreate.com/blog/ext-js-react-basic-grid/)

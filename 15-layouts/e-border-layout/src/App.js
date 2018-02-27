@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import SplitPane from 'react-split-pane';
+
 class App extends Component {
   render () {
     return (

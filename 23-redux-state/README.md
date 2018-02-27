@@ -1,15 +1,14 @@
-# 23 Handling Application State with Redux
+# 23 Ext JS to React: Handling Application State with Redux
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the "Handling Application State with Redux"  blog post (link here)
+The following example shows how application state can be managed using the
+popular state manager, Redux
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-application-state-redux
-$ npm install
-$ npm start
-```
+ - [a-application-state-redux](./a-application-state-redux): sample form
+ component whose application-specific props, methods, and data are furnished by
+ Redux
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
 
+[Ext JS to React: Handling Application State with Redux](TBD)

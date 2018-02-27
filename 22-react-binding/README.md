@@ -1,16 +1,15 @@
-# 22 Binding with React
+# 22 Ext JS to React: React Binding
 
+The following examples demonstrate how one-way binding works in React as well as
+how to achieve communications from a child component back to a parent
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "Binding with React" blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+## Example Projects
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+ - [a-simple-binding](./a-simple-binding): example of a form with one-way simple
+ binding
+ - [b-tell-parent](./b-tell-parent): example of a form whose form fields are
+ controlled by the parent form
 
-See src/App.js in each of the example directories.
+### Related Blog Article
 
-* a-simple-binding - example showing a form with one-way simple binding
-* b-tell-parent - exmaple showing a form that is controlled by its parent
-
-
+[Ext JS to React: React Binding](TBD)

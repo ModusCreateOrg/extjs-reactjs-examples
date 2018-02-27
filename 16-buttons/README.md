@@ -1,19 +1,19 @@
-# 16 Buttons
+# 16 Ext JS to React: Buttons
 
+The following examples show how you can create the same features associated with
+Ext JS buttons using React
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "Buttons" blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+## Example Projects
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+ - [a-simple-button](./a-simple-button): a simple React button
+ - [b-button-icon](./b-button-icon): render an icon font within a button
+ - [c-advanced-button](./c-advanced button): button component with a floating
+ menu using the [Semantic UI](https://www.npmjs.com/package/semantic-ui-react)
+ library
+ - [d-segmented-button](./d-segmented button): sample segmented button
 
-See src/App.js in each of the example directories.
+### Related Blog Article
 
-* a-simple-button - example demonstrating a simple button
-* b-button-icon - exanple demonstrating a button with an icon
-* c-advanced-button - example demonstrating a dropdown button
-* d-segmented-button - example demonstrating a segmented button
-
+[Ext JS to React: Buttons](TBD)
 
 
