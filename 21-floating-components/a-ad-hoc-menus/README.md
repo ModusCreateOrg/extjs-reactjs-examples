@@ -1,3 +1,32 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-ad-hoc-menus
+
+This project creates a simple `Menu` component at `src/Menu.js`.  The `App`
+component at `src/App.js` renders a div with a `Menu` as a child item.  The
+parent div has a context click handler which shows the `Menu` component wherever
+the right-click happened within the parent div.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Right-click
+within the parent div to show the `Menu` at the location where the event
+occurred.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

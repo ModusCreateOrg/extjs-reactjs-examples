@@ -1,3 +1,27 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# c-programmatic-navigation
+
+This project demonstrates how to manage the UI of an application using routing from the [react-router](https://www.npmjs.com/package/react-router) library.  The application's initial route is defined in the `App` class at `src/App.js`.  The `User` class at `src/User.js` is also defined with a Route.  The `User` class contains a `UserList` instance from `src/UserList.js`.  Next it contains a `Route` that when matched with a user id will also render a `UserForm` from `src/UserForm.js`.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Change the URL from `http://localhost:3000/` to `http://localhost:3000/user` to see the UI display the `User` class with a `UserList`.  Change the URL to `http://localhost:3000/user/1234` to display the `UserForm`.  The `UserForm` receives the passed ID of "1234" as prop which is then used in its rendered output.  In this example the `UserForm` has a directive in its render method that says if the user id passed in is "1234" then programmatically change the URL (history) to be "abcd" instead.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

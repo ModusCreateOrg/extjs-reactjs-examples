@@ -1,15 +1,12 @@
-# 26 Handling Data with Redux
+# 26 Ext JS to React: Handling Data with Redux
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the "Handling Data with Redux"  blog post (link here)
+In the following example we modify the form from [23-redux-state](../23-redux-state/) to load the form data from a remote source
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-sync-to-async
-$ npm install
-$ npm start
-```
+ - [a-sync-to-async](./a-sync-to-async): sample form component with remote-loaded data
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
+
+[COMING SOON](#)
 

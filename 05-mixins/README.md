@@ -1,14 +1,13 @@
-# 05 Mixins
+# 05 Ext JS to React: Mixins
 
+The following examples demonstrate techniques used to share common code within a React application similar to how you would use `mixins` in an Ext JS application
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the Mixinsblog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+## Example Projects
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+ - [a-floatingbox](./a-floatingbox): simple example illustrating the HOC patter to enable other components to assume a floated position within the viewport
+ - [b-simple-decorators](./b-simple-decorators): simple example illustrating class decorator syntax for use with the HOC pattern used to share code
+ - [c-maskable-example](./c-maskable-example): the render prop pattern for  shared code is used to mask the elements of the component composed within a `Mask` component
 
-* a-floatingbox - simple example illustrating hoc for floating box (see src/box.js and src/App.css)
-* b-configs - simple example illustrating decorators (this has been ejected and configured so decorators work)
-* c-maskable-example -  example illustrating hoc to add maksable to a component (this has been ejected and configured so decorators work)
+### Related Blog Article
 
+[Ext JS to React: Mixins](https://moduscreate.com/blog/ext-js-react-mixins/)

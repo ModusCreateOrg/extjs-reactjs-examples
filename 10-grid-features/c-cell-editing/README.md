@@ -1,3 +1,31 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# c-cell-editing
+
+This project uses [ag-Grid](https://www.npmjs.com/package/ag-grid-react) as the
+grid component.  The "name" column is configured with `editable: true`.
+Double-clicking a cell in the name column will show an editor text field in
+order to modify the cell value.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Double-click on
+a cell in the "name" column to see the editor in action.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

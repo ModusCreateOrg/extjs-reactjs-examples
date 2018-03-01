@@ -10,20 +10,23 @@ export default class MyError {
   }
 
   static fromAjax(response, doThrow) {
-    let error;
-    let hasErrors = true; // uncomment to spoof a 404
-
+    var error;
+    var hasErrors;
+    
+    // hasErrors = true; // uncomment to spoof a 404;
+            
     if (hasErrors || response.status === 404) {
-      error = new MyError({
-        code: MyError.codes.NO_NETWORK,
-        text: response.statusText
-      });
+        error = new MyError({
+            code : MyError.codes.NO_NETWORK,
+            text : response.statusText
+        });
     }
-
+    
     if (doThrow) {
-      throw error;
+        throw error;
     }
-
+    
     return error;
+
   }
 }

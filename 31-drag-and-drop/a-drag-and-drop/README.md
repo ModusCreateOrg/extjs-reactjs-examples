@@ -1,3 +1,27 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-drag-and-drop
+
+This project creates a list whose list items can be reordered via drag and drop using the [react-beautiful-dnd library](https://www.npmjs.com/package/react-beautiful-dnd).
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Drag the list items around to reorder them within their container.  When a list item is dragged into a valid position within its container the container will be highlighted.  If the drop operation is successful, the list item will be re-ordered within the container.  If it is not successful, the item will snap back to its initial position.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

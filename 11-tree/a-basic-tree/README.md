@@ -1,3 +1,31 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-basic-tree
+
+This project uses [ag-Grid](https://www.npmjs.com/package/ag-grid-react) as the
+tree component.  The tree component renders hierarchal data similar to the tree
+component in Ext JS.
+
+**Note: The tree component is a paid feature of ag-Grid**
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

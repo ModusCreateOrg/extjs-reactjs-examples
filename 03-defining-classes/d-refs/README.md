@@ -1,3 +1,23 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# d-refs
+
+This project contains a `MyComponent` class in `src/MyComponent.js` that renders an input field and button.  The input field's value comes from the component's `state.text`.  The input also possess a ref attribute giving the component direct access to the element at runtime.  Clicking the button fetches a reference to the input element and highlights its text.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  `MyComponent` is instantiated by the `App` component exported from `my-app/src/App.js`.  Click the button to highlight the input field's text.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

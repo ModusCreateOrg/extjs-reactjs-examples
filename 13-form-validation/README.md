@@ -1,15 +1,12 @@
-# 14 Form Validation
+# 13 Ext JS to React: Form Validation
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the Validation blog post (link here)
+In the following example we explore how to validate form fields within a React form
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-validation
-$ npm install
-$ npm start
-```
+ - [a-validation](./a-validation): a custom form field component used in as an example text and number field
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
+
+v
 

@@ -1,3 +1,27 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-simple-route
+
+This project demonstrates how to manage the UI of an application using routing from the [react-router](https://www.npmjs.com/package/react-router) library.  The application's sole route is defined in the `App` class at `src/App.js`.  
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Change the URL from `http://localhost:3000/` to `http://localhost:3000/user` to see the router in action.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

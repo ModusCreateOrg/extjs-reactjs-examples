@@ -1,3 +1,23 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# c-maskable-example
+
+This project demonstrates how to share code using render props syntax to mask an arbitrary class wrapped with a `Mask` component from `src/Mask.js`.  In this example, The `NetworkView` component from `src/NetworkView.js` handles mocking a fetch for remote data through a `load()` call.  It is passed `onBeforeLoad` and `onLoad` handlers as props to facilitate setting the mask on the masking element wrapping the `NetworkView` instance.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  When the application launches from `src/App.js` the `App` component creates a `Mask` which returns a `NetworkView` instance from its render prop function.  Once mounted, `NetworkView` mocks a remote load call which masks itself for 3 seconds and then unmasks (simulating the end of an asynchronous data fetch).
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -1,15 +1,12 @@
-# 13 Form Submission
+# 14 Ext JS to React: Form Submission
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the Scaffolding blog post (link here)
+In the following example we'll demonstrate how to submit a form in React
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-login-form
-$ npm install
-$ npm start
-```
+ - [a-login-form](./a-login-form): sample login form with username and password as controlled fields and a submit button that handles sending the form data to a remote server
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
+
+[COMING SOON](#)
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-//import logo from './logo.svg';
+// import logo from './logo.svg';
+// replace the original logo from the generated app with one we'll supply
 import logo from './logo2.svg';
 import './App.css';
 

@@ -1,3 +1,35 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-tabpanel
+
+This project creates a tab panel with icons in the tabs courtesy of
+[Font Awesome](https://www.npmjs.com/package/@fortawesome/react-fontawesome).
+The tabs themselves are defined as `Tab` classes in `src/Tab.js`.  The
+`TabPanel` class from `src/TabPanel.js` adds `Tab`s for every child item passed to the `TabPanel` similar in function to what you're used to seeing done with Ext JS.  
+
+The `App` class at `src/App.js` includes a `TabPanel` with two child items each
+having a `tabtext` and `icon` prop.  The `tabtext` value is used as the text
+(title) for the tab connected to each child item.  The `icon` name results in a
+Font Awesome font on the tab.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

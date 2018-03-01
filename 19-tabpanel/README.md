@@ -1,15 +1,12 @@
-# 19 TabPanel
+# 19 Ext JS to React: Tab Panel
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the TabPanel blog post (link here)
+The following example demonstrates how to create a tab panel with React
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-tabpanel
-$ npm install
-$ npm start
-```
+ - [a-panel](./a-tabpanel): simple tab panel
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
+
+[COMING SOON](#)
 

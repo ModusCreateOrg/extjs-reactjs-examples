@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class MyComponent extends Component {
+  // sets the initial value of `text` on the component's state object
   state = {
     text: 'Hello from Modus!'
   }
@@ -10,6 +11,7 @@ class MyComponent extends Component {
 
     return (
       <div>
+        {/* the input's value comes from the component's state.text */}
         <input
           defaultValue={text}
           ref={ input => this.textInput = input }

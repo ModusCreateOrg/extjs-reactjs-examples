@@ -9,12 +9,8 @@ class Carousel extends Component {
     position: 'bottom'
   }
 
-  constructor (props) {
-    super(props);
-
-    this.state={
-      activecard : props.activecard
-    }
+  state = {
+    activecard: this.props.activecard
   }
 
   render () {

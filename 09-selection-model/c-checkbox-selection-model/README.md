@@ -1,3 +1,23 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# c-checkbox-selection-model
+
+This project uses [ag-Grid](https://www.npmjs.com/package/ag-grid-react) as the grid component.  The grid is configured to allow row selection by clicking on a checkbox in either the row or column header (which will check / uncheck all rows).  In addition to simply clicking on a checkbox, users can hold shift while clicking checkboxes between two rows to select a range of rows.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Click the checkboxes in the rows and column header to see the row selection model in action.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

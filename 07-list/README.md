@@ -1,14 +1,13 @@
-# 07 Lists
+# 07 Ext JS to React: List
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "List" blog post (link here).  The source code has been
-modified to include the examples in the blog post so you can see it in action.
+The Ext JS list component, including selectable rows and icon buttons, is recreated as a React component in the following examples
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+## Example Projects
 
-See src/App.js in each of the example directories.
+ - [a-basic-list](./a-basic-list): simple list component
+ - [b-selectable-list](./b-selectable-list): simple list with an included selection model
+ - [c-list-tools](./c-list-tools): list component with configurable icon font buttons embedded in the list item
 
-* a-basic-List- example illustrating basic List component in React
-* b-advanced-templating - example illustrating advanced templating
+### Related Blog Article
 
+[Ext JS to React: List](https://moduscreate.com/blog/ext-js-react-list/)

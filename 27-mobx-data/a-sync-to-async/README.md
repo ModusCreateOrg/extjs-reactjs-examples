@@ -1,3 +1,33 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-sync-to-async
+
+This project uses [MobX](https://www.npmjs.com/package/mobx) and
+[mobx-react](https://www.npmjs.com/package/mobx-react) to manage the state of
+a form and its field values.  The `Form` component at `src/Form.js` once mounted
+will fetch the remote user data from its `componentDidMount` method using the
+[fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).  The
+data file from `public/user.json` is then set on the user object on the
+application state which the `Form` uses to populate its form fields.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

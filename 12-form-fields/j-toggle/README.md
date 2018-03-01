@@ -1,3 +1,29 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# j-toggle
+
+This project creates a `Toggle` component from `src/Toggle.js`.  The `Toggle`
+field is effectively a checkbox styled to look like a toggle switch.  The
+styling for the `Toggle` field is imported from `src/Toggle.css`.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

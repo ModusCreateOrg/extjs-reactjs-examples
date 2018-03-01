@@ -1,3 +1,29 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# my-app
+
+This project contains a simple modification to the initially generated starter app.  It serves to demonstrate how to edit files within the starter app and see the changes update in the browser real-time (when following the steps outlined in the [Scaffolding blog article](https://moduscreate.com/blog/ext-js-to-react-scaffolding/)).
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.
+
+As you make edits to the sources in the my-app/ directory, the browser will automatically refresh to reflect your changes.
+
+The blog post suggests some simple edits to see this in action.
+
+For a quick start, you can edit `my-app/src/App.js` and comment out one of the two import lines: `logo.svg` or `logo2.svg`.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

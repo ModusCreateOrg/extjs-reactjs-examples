@@ -1,16 +1,14 @@
-# 06 Templating
+# 06 Ext JS to React: Templating
 
+In these examples we explore how to create templated classes similar to what you would do when creating HTML templates using Ext JS XTemplate
 
-This subdirectory contains apps already generated with create-react-app, as
-described in the "Temolating" and "Advanced Templating" blog posts (link here).  
-The source code has been modified to include the examples in the blog post so 
-you can see it in action.
+## Example Projects
 
-For each of the following examples, cd into the directory and run ```npm
-install``` followeed by ```npm run```
+ - [a-simple-templating](./a-simple-templating): simple React component whose content is fed from a data object using templating syntax
+ - [b-advanced-templating](./b-advanced-templating): a somewhat more advanced  templating example that uses a class method owned by the component rendering the template.  This is similar to using member functions in Ext JS templates.
 
-See src/App.js in each of the example directories.
+### Related Blog Articles
 
-* a-simple-templating- example illustrating simple templating in React
-* b-advanced-templating - example illustrating advanced templating
+[Ext JS to React: Simple Templating](https://moduscreate.com/blog/ext-js-react-simple-templating/)
 
+[Ext JS to React: Advanced Templating](https://moduscreate.com/blog/ext-js-react-advanced-templating/)

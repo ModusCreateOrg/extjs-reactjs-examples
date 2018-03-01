@@ -1,3 +1,37 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# b-card-layout
+
+This project creates a layout system to apply the necessary styling to a parent
+container to manage the dimensions / position of its child items.  The `Layout`
+component from `src/Layout.js` is used in the example at `src/App.js` and is
+passed a `type` prop.  The type is used to set the style from `src/Layout.css`
+on the parent container.
+
+In this example, two child components are composed within the parent container.
+The active / visible / rendered component is determined by the index number
+passed in the `activeCard` prop of the `App` component.  It defaults to 0.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Change the
+`activeCard` prop to `1` in `src/index.js` to show the second of the two child
+components.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

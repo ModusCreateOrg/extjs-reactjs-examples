@@ -1,15 +1,13 @@
-# 20 Carousel
+# 20 Ext JS to React: Carousel
 
-This subdirectory contains an app already generated with create-react-app, as
-described in the Carousel blog post (link here)
+The following example demonstrates how to create a carousel component with React
 
-To run the app server:
+## Example Projects
 
-```
-$ cd a-carousel
-$ npm install
-$ npm start
-```
+ - [a-carousel](./a-carousel): React carousel component
 
-A browser window will automatically open and will load the app.
+### Related Blog Article
+
+[COMING SOON](#)
+
 
