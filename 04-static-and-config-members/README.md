@@ -5,11 +5,8 @@ as well as pass configuration options
 
 ## Example Projects
 
- - [a-static-members](./a-static-members): static class methods can be defined
- for use in a React app
- - [b-configs](./b-configs): recreate the set / get methods for a component
- property in React similar to what the Ext JS class system does for options
- defined in a `config` block in an Ext JS defined class
+ - [a-static-members](./a-static-members): static class methods can be defined for use in a React app
+ - [b-configs](./b-configs): recreate the set / get methods for a component property in React similar to what the Ext JS class system does for options defined in a `config` block in an Ex JS defined class
 
 ### Related Blog Article
 

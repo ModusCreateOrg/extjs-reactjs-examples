@@ -1,3 +1,37 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# b-advanced-tree
+
+This project uses [ag-Grid](https://www.npmjs.com/package/ag-grid-react) as the
+tree component.  The hierarchal tree data is rendered in the "Organisational
+Hierarchy" column with associated data shown in three additional columns similar
+to the tree grid view in Ext JS.
+
+The tree is configured with several advanced features including cell editing and
+column locking / pinning.
+
+**Note: The tree component is a paid feature of ag-Grid**
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Double-click a
+cell in the tree column to show the editor text field.  Scroll the view to the
+right to see the first column locked in place.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

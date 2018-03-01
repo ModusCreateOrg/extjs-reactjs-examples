@@ -1,3 +1,25 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# b-functional-property
+
+This project contains a simple `MyComponent` class in `src/MyComponent.js` defined using functional syntax (versus extending `React.Component`). `MyComponent` accepts a prop of `text` which, when no passed, is given a default value.
+
+`MyComponent` is composed twice into the rendered JSX output of `MyContainer` in `src/MyContainer.js`.  The first time, it's passed with no text prop resulting in it being rendered with the default text value.  The second instance is given a `text` prop.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  `MyContainer` is instantiated by the `App` component exported from `my-app/src/App.js`.  Both the default and the customized `MyComponent` instance are displayed in the browser.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

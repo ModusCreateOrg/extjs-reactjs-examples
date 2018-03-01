@@ -1,3 +1,23 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# b-selectable-list
+
+This project creates a list from an array of data objects.  The list enables user selection of list items using the `Selectable` class from `src/Selectable.js`.  The `Selectable` class renders `ListItem` rows from `src/ListItem.js` using its render prop function.  Check out `src/App.js` to see `Selectable` iterate over data from `src/data.js` returning selectable instances of `ListItem`.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  Click a list item to select it. Shift-click another item to select multiple list items. When a selection occurs, the selection event and number of selected items is logged to the console.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

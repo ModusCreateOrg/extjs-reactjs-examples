@@ -1,3 +1,37 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# a-simple-binding
+
+This project creates a `Form` component at `src/Form.js` with form fields
+returned by the `renderField` method.  The `renderField` method is passed the
+`Form`'s state object.  Each field's value is furnished by the state.  The state
+is in turn updated as the user types in a field.  The `handleFieldChange` method
+handles the change event and sets the value of the field on the `Form` state.
+The update to the state results in the `render` method running again returning
+the value form the state object to each form field in a sort of binding.
+
+Configuring form fields to populate using the value from its state, or the state
+of a parent container, is known as a controlled component.  This sort of binding
+relationship ensures that the data and the view are inherently separated.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

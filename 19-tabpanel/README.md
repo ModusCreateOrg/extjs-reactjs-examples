@@ -8,5 +8,5 @@ The following example demonstrates how to create a tab panel with React
 
 ### Related Blog Article
 
-[Ext JS to React: Tab Panel](TBD)
+[COMING SOON](#)
 

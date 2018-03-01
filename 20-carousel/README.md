@@ -1,7 +1,6 @@
 # 20 Ext JS to React: Carousel
 
-The following example demonstrates how to create a carousel component with
-React
+The following example demonstrates how to create a carousel component with React
 
 ## Example Projects
 
@@ -9,6 +8,6 @@ React
 
 ### Related Blog Article
 
-[Ext JS to React: Carousel](TBD)
+[COMING SOON](#)
 
 

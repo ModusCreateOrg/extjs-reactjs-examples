@@ -12,15 +12,15 @@ class MyComponent extends Component {
     return (
       <div>
         {/* the input's value comes from the component's state.text */}
-        <input defaultValue={text} />
-        <button onClick={this.onBtnClick}>Set Text</button>
+        <input value={text} readOnly />
+        <button onClick={this.handleBtnClick}>Set Text</button>
       </div>
     )
   }
 
   // setting `text` on the component state results in render running once more
   // and updating the value of the input field
-  onBtnClick = () => {
+  handleBtnClick = () => {
     this.setState({
       text: 'Text changed!'
     })

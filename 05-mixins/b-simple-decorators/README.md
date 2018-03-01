@@ -1,3 +1,23 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# b-simple-decorators
+
+This project demonstrates how to use a HOC with decorator syntax to mask an arbitrary class decorated with `src/util/withMasking.js`.  The `withMasking` accepts a component as a param.  It then returns a React component with masking methods and a masking element wrapping the passed component.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  When the application launches from `src/App.js` the `App` component is decorated with the `withMasking` HOC with the syntax `@withMasking`.  Once mounted, `App` mocks a remote load call which masks `App` for 3 seconds and then unmasks (simulating the end of an asynchronous data fetch).
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -1,7 +1,6 @@
 # 15 Ext JS to React: Layouts
 
-In the following examples we look at how to recreate many of the familiar
-layouts from Ext JS using React
+In the following examples we look at how to recreate many of the familiar layouts from Ext JS using React
 
 ## Example Projects
 
@@ -15,7 +14,7 @@ layouts from Ext JS using React
 
 ### Related Blog Article
 
-[Ext JS to React: Layouts](TBD)
+[COMING SOON](#)
 
 
 

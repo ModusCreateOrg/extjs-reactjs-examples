@@ -1,7 +1,6 @@
 # 12 Ext JS to React: Form Fields
 
-In the following examples we show how to create various form fields from Ext JS
-using React
+In the following examples we show how to create various form fields from Ext JS using React
 
 ## Example Projects
 

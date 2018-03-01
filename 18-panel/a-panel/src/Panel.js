@@ -23,7 +23,7 @@ class Panel extends Component {
   }
 
   render() {
-    const { collapsible, expandDir, headerPosition, preTools,
+    const { collapsible, expandDir, preTools,
       postTools, style = {}, title } = this.props;
     const { expanded } = this.state;
     const showHeader = title.length || collapsible;

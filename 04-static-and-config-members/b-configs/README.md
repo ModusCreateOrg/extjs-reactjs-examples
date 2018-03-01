@@ -1,3 +1,23 @@
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
+
+# b-configs
+
+This project demonstrates how to achieve the same type of set / apply / update / get logic furnished by Ext JS's config system.  The `Foo` class a `foo` property with a getter and setter method enabling the value of an instance of `Foo.foo` to be retrieved by simple reading the property `Foo.foo` despite there being a logic component to the getter.  And the same goes for setting `foo`.  While the value is set by assigning directly to the property, behind the scenes the value can be validated or mutated with custom setter logic.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  In `src/App.js` an instance of `Foo` is created and its `foo` property is retrieved and logged. The value is then updated using `instance.foo = 'foobar';` and its value then logged.
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

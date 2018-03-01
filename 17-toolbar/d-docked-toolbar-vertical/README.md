@@ -1,3 +1,35 @@
+This project was generated as a sample React application using
+[create-react-app](https://www.npmjs.com/package/create-react-app) as described
+in the
+[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
+post.
+
+# d-docked-toolbar-vertical
+
+This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are
+arranged vertically using CSS flexbox and the inline style of
+`flexDirection: 'column',` from the `toolbarStyle` style object at the top of
+the class file.  The toolbar is "docked" within a parent container using
+flexbox as well.  The container body is given a flex value of `1` in the
+`.body` CSS rule in `src/App.css` while the toolbar is sized naturally.  To dock
+the toolbar vertically the container's flexbox is set as
+`flex-direction: column;` in the `.docked-vertical .toolbar` style rule in
+`src/App.css`.
+
+*Make sure you have npm installed.*
+
+To run the app server:
+
+```
+$ npm install
+$ npm start
+```
+
+A browser window will automatically open and will load the app.  
+
+
+# Create React App README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
