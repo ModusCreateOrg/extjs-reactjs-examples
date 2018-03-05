@@ -46,21 +46,23 @@ class SegmentedButton extends Component {
     const { allowDepress } = this.props;
     const { target: btn } = e;
     const { tagName } = btn;
-    let { pressed } = this.state;
+    let pressedState = this.state.pressed.slice(0);
     
     if (tagName === 'BUTTON') {
       const { value } = btn;
-      const valIndex = pressed.indexOf(value);
+      const valIndex = pressedState.indexOf(value);
       const isPressed = valIndex !== -1;
       // toggle the "pressed" button state
       if (isPressed) {
-        if (allowDepress || (!allowDepress && pressed.length > 1)) {
-          pressed = pressed.filter(item => item !== value);
+        if (allowDepress || (!allowDepress && pressedState.length > 1)) {
+          pressedState = pressedState.filter(item => item !== value);
         }
       } else {
-        pressed = [...pressed, value];
+        pressedState = [...pressedState, value];
       }
-      this.setState({ pressed });
+      this.setState({
+        pressed: pressedState 
+      });
     }
   }
 }
