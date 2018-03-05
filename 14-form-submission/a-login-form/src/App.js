@@ -24,12 +24,13 @@ class App extends Component {
    });
  }
  render () {
-   const { state } = this;
+   const { password, username } = this.state;
+
    return (
      <form onSubmit={this.handleSubmit}>
        <input
          type="text"
-         value={state.username.value}
+         value={username.value}
          name="username"
          placeholder="username..."
          onChange={this.handleChange}
@@ -38,7 +39,7 @@ class App extends Component {
        <br />
        <input
          type="password"
-         value={state.password.value}
+         value={password.value}
          name="password"
          placeholder="password..."
          onChange={this.handleChange}
