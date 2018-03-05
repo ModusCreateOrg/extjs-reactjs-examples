@@ -8,5 +8,5 @@ The following example demonstrates how to create a tab panel with React
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*
 

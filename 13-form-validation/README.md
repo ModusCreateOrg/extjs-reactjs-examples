@@ -8,5 +8,5 @@ In the following example we explore how to validate form fields within a React f
 
 ### Related Blog Article
 
-v
+[Ext JS to React: Form Validation](https://moduscreate.com/blog/ext-js-react-form-validations/)
 

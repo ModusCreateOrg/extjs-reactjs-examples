@@ -11,6 +11,6 @@ The following examples show how you can create the same features associated with
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*
 
 

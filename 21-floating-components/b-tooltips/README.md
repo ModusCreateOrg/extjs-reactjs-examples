@@ -1,21 +1,10 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-tooltips
 
-This project creates a `Tooltip` component at `src/Tooltip.js`.  The example
-`App` at `src/App.js` wraps the word "MOON" with a `Tooltip` instance with the
-`tiptext` prop configured with the words "DEATH STAR".  The `tiptext` passed is
-set on a data attribute on the `Tooltip` element.
+This project creates a `Tooltip` component at `src/Tooltip.js`.  The example `App` at `src/App.js` wraps the word "MOON" with a `Tooltip` instance with the `tiptext` prop configured with the words "DEATH STAR".  The `tiptext` passed is set on a data attribute on the `Tooltip` element.
 
-The CSS styles imported from `src/Tooltip.css` handle the showing of the tip
-text on hover.  The style rules also manage the position of the floating pseudo
-element using the `position` prop passed to the `Tooltip`.  The position default
-to `t-t`, but can also be set to `b-b` in this example to show the `Tooltip`
-text below the target instead of above.
+The CSS styles imported from `src/Tooltip.css` handle the showing of the tip text on hover.  The style rules also manage the position of the floating pseudo element using the `position` prop passed to the `Tooltip`.  The position default to `t-t`, but can also be set to `b-b` in this example to show the `Tooltip` text below the target instead of above.
 
 *Make sure you have npm installed.*
 
@@ -26,8 +15,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Hover your
-cursor over word "MOON" to see the `Tooltip` in action.
+A browser window will automatically open and will load the app.  Hover your cursor over word "MOON" to see the `Tooltip` in action.
 
 
 # Create React App README

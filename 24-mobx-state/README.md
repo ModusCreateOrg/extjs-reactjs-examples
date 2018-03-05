@@ -8,4 +8,4 @@ The following example shows how application state can be managed using the popul
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*

@@ -10,4 +10,4 @@ The following examples show how to fetch remote data as well as sort or filter i
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*

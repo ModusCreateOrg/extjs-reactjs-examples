@@ -1,19 +1,10 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # f-accordion-layout
 
-This project creates a layout system to apply the necessary styling to a parent
-container to manage the dimensions / position of its child items.  The `Layout`
-component from `src/Layout.js` is used in the example at `src/App.js` and is
-passed a `type` prop.  The type is used to set the style from `src/Layout.css`
-on the parent container.
+This project creates a layout system to apply the necessary styling to a parent container to manage the dimensions / position of its child items.  The `Layout` component from `src/Layout.js` is used in the example at `src/App.js` and is passed a `type` prop.  The type is used to set the style from `src/Layout.css` on the parent container.
 
-In this example, all child items are oriented vertically and are collapsible
-similar to Ext JS's accordion layout.
+In this example, all child items are oriented vertically and are collapsible similar to Ext JS's accordion layout.
 
 *Make sure you have npm installed.*
 

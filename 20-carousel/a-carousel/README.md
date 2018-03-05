@@ -1,22 +1,10 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-carousel
 
-This project creates a `Carousel` component at `src/Carousel.js`.  The
-`Carousel` component accepts child items to be shown as cards in the `Carousel`
-view.  The `Carousel` contains an indicator bar with dots representing the child
-items.  The active card in view is set with the `activecard` prop on the
-`Carousel`.  It defaults to `0`.  To show the second child item initially the
-prop may be passed like: `activecard={1}` to specify the second index in the
-child items list.
+This project creates a `Carousel` component at `src/Carousel.js`.  The `Carousel` component accepts child items to be shown as cards in the `Carousel` view.  The `Carousel` contains an indicator bar with dots representing the child items.  The active card in view is set with the `activecard` prop on the `Carousel`.  It defaults to `0`.  To show the second child item initially the prop may be passed like: `activecard={1}` to specify the second index in the child items list.
 
-Users of the `Carousel` may click / tap the indictor dots to change which card
-is actively in view.  The `Carousel` is also made by swipeable using the
-[SwipeableViews](https://www.npmjs.com/package/react-swipeable-views) library.
+Users of the `Carousel` may click / tap the indictor dots to change which card is actively in view.  The `Carousel` is also made by swipeable using the [SwipeableViews](https://www.npmjs.com/package/react-swipeable-views) library.
 
 *Make sure you have npm installed.*
 
@@ -27,9 +15,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Click on the
-indictor dots or swipe left or right to change the active card in the
-`Carousel`.
+A browser window will automatically open and will load the app.  Click on the indictor dots or swipe left or right to change the active card in the `Carousel`.
 
 
 # Create React App README

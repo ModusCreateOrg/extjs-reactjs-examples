@@ -1,13 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # c-stacked-chart
 
-This project creates a stacked column chart using the React charting library:
-[Recharts](https://www.npmjs.com/package/recharts).
+This project creates a stacked column chart using the React charting library: [Recharts](https://www.npmjs.com/package/recharts).
 
 *Make sure you have npm installed.*
 

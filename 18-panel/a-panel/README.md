@@ -1,16 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-panel
 
-This project creates a collapsible `Panel` component located at `src/Panel.js`.
-The `Panel` may have a `Header` component from `src/Header.js` as a child item.
-The `Header` contains the collapse / expand tool and may be configured with a
-[Font Awesome icon](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
-tool which can have its own click handler.
+This project creates a collapsible `Panel` component located at `src/Panel.js`. The `Panel` may have a `Header` component from `src/Header.js` as a child item. The `Header` contains the collapse / expand tool and may be configured with a [Font Awesome icon](https://www.npmjs.com/package/@fortawesome/react-fontawesome) tool which can have its own click handler.
 
 *Make sure you have npm installed.*
 
@@ -21,9 +13,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Click the arrow
-icon in the header to toggle the collapse state of the panel.  Click the React
-tool icon to see the user interaction logged in the console.
+A browser window will automatically open and will load the app.  Click the arrow icon in the header to toggle the collapse state of the panel.  Click the React tool icon to see the user interaction logged in the console.
 
 
 # Create React App README

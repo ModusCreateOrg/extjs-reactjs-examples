@@ -1,21 +1,10 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # b-sorting
 
-This project creates a `List` component at `src/List.js` that consumes a data
-object in order to return list items.  The data is loaded at runtime as the
-`List` is mounted.  The `componentDidMount` method uses the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to request the data
-from `public/data.json`.
+This project creates a `List` component at `src/List.js` that consumes a data object in order to return list items.  The data is loaded at runtime as the `List` is mounted.  The `componentDidMount` method uses the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to request the data from `public/data.json`.
 
-Once the remote data is fetched, it's set on the state property of the `List`.
-Before the data is set on the state object, it's run through the `parseData`
-method which applies any sorters configured on the `List`.  Updating the state
-results in the component being re-rendered and the data being displayed in the
-browser.
+Once the remote data is fetched, it's set on the state property of the `List`. Before the data is set on the state object, it's run through the `parseData` method which applies any sorters configured on the `List`.  Updating the state results in the component being re-rendered and the data being displayed in the browser.
 
 *Make sure you have npm installed.*
 

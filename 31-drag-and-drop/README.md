@@ -8,4 +8,4 @@ In the following example we'll create a list with items that can be rearranged v
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*

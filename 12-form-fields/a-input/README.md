@@ -1,14 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-input
 
-This project creates a simple text field for use in a React application.  Input
-fields themselves are very straightforward since they are just HTML5 input
-elements with content-specific attributes.
+This project creates a simple text field for use in a React application.  Input fields themselves are very straightforward since they are just HTML5 input elements with content-specific attributes.
 
 *Make sure you have npm installed.*
 

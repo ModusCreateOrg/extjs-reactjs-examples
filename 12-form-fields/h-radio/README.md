@@ -1,14 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # h-radio
 
-This project creates a form with three radio fields defined in `src/Radio.js`.
-The `Radio` fields are controlled fields with their checked state coming from
-the component state property.
+This project creates a form with three radio fields defined in `src/Radio.js`. The `Radio` fields are controlled fields with their checked state coming from the component state property.
 
 *Make sure you have npm installed.*
 

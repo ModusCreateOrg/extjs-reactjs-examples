@@ -1,28 +1,12 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # b-tell-parent
 
-This project creates a `Form` component at `src/Form.js` with form fields
-returned by the `renderField` method.  The `renderField` method is passed the
-`Form`'s state object.  Each field's value is furnished by the state.  The state
-is in turn updated as the user types in a field.  The `handleFieldChange` method
-handles the change event and sets the value of the field on the `Form` state.
-The update to the state results in the `render` method running again returning
-the value form the state object to each form field in a sort of binding.
+This project creates a `Form` component at `src/Form.js` with form fields returned by the `renderField` method.  The `renderField` method is passed the `Form`'s state object.  Each field's value is furnished by the state.  The state is in turn updated as the user types in a field.  The `handleFieldChange` method handles the change event and sets the value of the field on the `Form` state. The update to the state results in the `render` method running again returning the value form the state object to each form field in a sort of binding.
 
-The `handleFieldChange` method also looks to see if an `onChanage` function was
-passed as a prop to the `Form`.  If so, it's called in addition to updating the
-`state.user` hash of the `Form`.  In this way we can effectively notify parent
-components of the `Form` when values receiving their values via binding have
-changed at runtime.
+The `handleFieldChange` method also looks to see if an `onChanage` function was passed as a prop to the `Form`.  If so, it's called in addition to updating the `state.user` hash of the `Form`.  In this way we can effectively notify parent components of the `Form` when values receiving their values via binding have changed at runtime.
 
-Configuring form fields to populate using the value from its state, or the state
-of a parent container, is known as a controlled component.  This sort of binding
-relationship ensures that the data and the view are inherently separated.
+Configuring form fields to populate using the value from its state, or the state of a parent container, is known as a controlled component.  This sort of binding relationship ensures that the data and the view are inherently separated.
 
 *Make sure you have npm installed.*
 
@@ -33,9 +17,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Type in the
-form fields to see the user interaction logged to the console using the
-`onChange` handler function in the `App` component at `src/App.js`.
+A browser window will automatically open and will load the app.  Type in the form fields to see the user interaction logged to the console using the `onChange` handler function in the `App` component at `src/App.js`.
 
 
 # Create React App README

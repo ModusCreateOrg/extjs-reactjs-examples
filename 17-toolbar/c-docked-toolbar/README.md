@@ -1,15 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # c-docked-toolbar
 
-This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are
-arranged using CSS flexbox.  The toolbar is "docked" within a parent container
-using flexbox as well.  The container body is given a flex value of `1` in the
-`.body` CSS rule in `src/App.css` while the toolbar is sized naturally.
+This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are arranged using CSS flexbox.  The toolbar is "docked" within a parent container using flexbox as well.  The container body is given a flex value of `1` in the `.body` CSS rule in `src/App.css` while the toolbar is sized naturally.
 
 *Make sure you have npm installed.*
 

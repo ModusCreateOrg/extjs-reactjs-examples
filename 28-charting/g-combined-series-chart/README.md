@@ -1,13 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # g-combined-series-chart
 
-This project creates a combined column and line chart using the React charting
-library: [Recharts](https://www.npmjs.com/package/recharts).
+This project creates a combined column and line chart using the React charting library: [Recharts](https://www.npmjs.com/package/recharts).
 
 *Make sure you have npm installed.*
 

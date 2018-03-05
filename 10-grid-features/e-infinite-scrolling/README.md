@@ -1,15 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # e-infinite-scrolling
 
-This project uses [ag-Grid](https://www.npmjs.com/package/ag-grid-react) as the
-grid component.  The grid is configured with `rowModelType="infinite"` so that
-as the user scrolls to the bottom of the grid, additional pages of data are
-requested.
+This project uses [ag-Grid](https://www.npmjs.com/package/ag-grid-react) as the grid component.  The grid is configured with `rowModelType="infinite"` so that as the user scrolls to the bottom of the grid, additional pages of data are requested.
 
 *Make sure you have npm installed.*
 
@@ -20,9 +13,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Scroll to the
-bottom of the grid's scrollable area to see an additional dataset loaded to the
-grid.
+A browser window will automatically open and will load the app.  Scroll to the bottom of the grid's scrollable area to see an additional dataset loaded to the grid.
 
 
 # Create React App README

@@ -1,14 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # i-checkbox
 
-This project creates a form with two checkbox fields defined in
-`src/Checkbox.js`.  The `Checkbox` fields are controlled fields with their
-checked state coming from the component state property.
+This project creates a form with two checkbox fields defined in `src/Checkbox.js`.  The `Checkbox` fields are controlled fields with their checked state coming from the component state property.
 
 *Make sure you have npm installed.*
 
