@@ -8,5 +8,5 @@ In the following example we modify the form from [23-redux-state](../23-redux-st
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*
 

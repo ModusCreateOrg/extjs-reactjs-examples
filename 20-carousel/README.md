@@ -8,6 +8,6 @@ The following example demonstrates how to create a carousel component with React
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*
 
 

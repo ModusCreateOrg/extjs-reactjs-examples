@@ -1,13 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-toolbar-layout
 
-This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are
-arranged using CSS flexbox.
+This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are arranged using CSS flexbox.
 
 *Make sure you have npm installed.*
 

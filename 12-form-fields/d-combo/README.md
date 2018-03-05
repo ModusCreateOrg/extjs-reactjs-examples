@@ -1,13 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # d-combo
 
-This project creates a datalist component similar to the combobox control from
-Ext JS.
+This project creates a datalist component similar to the combobox control from Ext JS.
 
 *Make sure you have npm installed.*
 

@@ -1,18 +1,9 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # c-modal
 
-This project creates a `Floating` component at `src/Floating.js`.  The
-`Floating` component positions itself in the center of the container it's
-composed within unless configured with the `viewport` prop.  The `viewport` prop
-renders the `Floating` component to the document body instead of the container
-wrapping the `Floating` component.  Passing the `modal` prop masks the
-`Floating` component's target element.  If the `closeOnModalClick` prop is
-passed a click on the modal mask will hide the `Floating` component.
+This project creates a `Floating` component at `src/Floating.js`.  The `Floating` component positions itself in the center of the container it's composed within unless configured with the `viewport` prop.  The `viewport` prop renders the `Floating` component to the document body instead of the container wrapping the `Floating` component.  Passing the `modal` prop masks the
+`Floating` component's target element.  If the `closeOnModalClick` prop is passed a click on the modal mask will hide the `Floating` component.
 
 *Make sure you have npm installed.*
 
@@ -23,9 +14,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Click on the
-"Show Floating" button to show the modal `Floating` component rendered to the
-document.body.
+A browser window will automatically open and will load the app.  Click on the "Show Floating" button to show the modal `Floating` component rendered to the `document.body`.
 
 
 # Create React App README

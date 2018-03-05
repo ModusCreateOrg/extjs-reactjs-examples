@@ -11,7 +11,7 @@ The following examples show how to use React to create toolbars like those used 
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*
 
 
 

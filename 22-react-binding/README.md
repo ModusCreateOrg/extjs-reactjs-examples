@@ -9,4 +9,4 @@ The following examples demonstrate how one-way binding works in React as well as
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*

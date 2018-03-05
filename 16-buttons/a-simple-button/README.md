@@ -1,14 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-simple-button
 
-This project creates a toolbar-type container with a button element within the
-`App` at `src/App.js`.  Button clicks are handled by the `handleAddUser` method
-on the `App` component.
+This project creates a toolbar-type container with a button element within the `App` at `src/App.js`.  Button clicks are handled by the `handleAddUser` method on the `App` component.
 
 *Make sure you have npm installed.*
 
@@ -19,8 +13,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Click the
-button to see the handling of the user interaction logged to the console.
+A browser window will automatically open and will load the app.  Click the button to see the handling of the user interaction logged to the console.
 
 
 # Create React App README

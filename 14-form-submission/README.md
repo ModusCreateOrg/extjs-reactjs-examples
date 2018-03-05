@@ -8,5 +8,5 @@ In the following example we'll demonstrate how to submit a form in React
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*
 

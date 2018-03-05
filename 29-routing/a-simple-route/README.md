@@ -1,12 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-simple-route
 
-This project demonstrates how to manage the UI of an application using routing from the [react-router](https://www.npmjs.com/package/react-router) library.  The application's sole route is defined in the `App` class at `src/App.js`.  
+This project demonstrates how to manage the UI of an application using routing from the[react-router](https://www.npmjs.com/package/react-router) library.  The application's sole route is defined in the `App` class at `src/App.js`.  
 
 *Make sure you have npm installed.*
 

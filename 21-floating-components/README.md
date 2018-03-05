@@ -10,4 +10,4 @@ The following examples show how to create floating components like context menus
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*

@@ -17,7 +17,7 @@ In the following examples we show how to create various form fields from Ext JS 
 
 ### Related Blog Article
 
-[Ext JS to React: Form Fields](TBD)
+[Ext JS to React: Form Fields](https://moduscreate.com/blog/ext-js-react-form-fields/)
 
 
 

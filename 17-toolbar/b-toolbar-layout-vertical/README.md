@@ -1,15 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # b-toolbar-layout-vertical
 
-This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are
-arranged vertically using CSS flexbox and the inline style of
-`flexDirection: 'column',` from the `toolbarStyle` style object at the top of
-the class file.
+This project creates a `Toolbar` from `src/Toolbar.js`.  Child items are arranged vertically using CSS flexbox and the inline style of `flexDirection: 'column',` from the `toolbarStyle` style object at the top of the class file.
 
 *Make sure you have npm installed.*
 

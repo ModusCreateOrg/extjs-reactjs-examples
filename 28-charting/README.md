@@ -16,4 +16,4 @@ In the following examples we look at how to create many of the popular charts fr
 
 ### Related Blog Article
 
-[COMING SOON](#)
+*COMING SOON*

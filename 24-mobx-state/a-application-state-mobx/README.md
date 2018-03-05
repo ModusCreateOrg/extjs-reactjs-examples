@@ -1,14 +1,8 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-application-state-mobx
 
-This project uses [MobX](https://www.npmjs.com/package/mobx) and
-[mobx-react](https://www.npmjs.com/package/mobx-react) to manage the state of
-a form and its field values.
+This project uses [MobX](https://www.npmjs.com/package/mobx) and [mobx-react](https://www.npmjs.com/package/mobx-react) to manage the state of a form and its field values.
 
 *Make sure you have npm installed.*
 

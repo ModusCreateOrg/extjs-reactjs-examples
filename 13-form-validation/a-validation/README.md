@@ -1,18 +1,10 @@
-This project was generated as a sample React application using
-[create-react-app](https://www.npmjs.com/package/create-react-app) as described
-in the
-[Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog
-post.
+This project was generated as a sample React application using [create-react-app](https://www.npmjs.com/package/create-react-app) as described in the [Scaffolding](https://moduscreate.com/blog/ext-js-to-react-scaffolding/) blog post.
 
 # a-validation
 
-This project creates a custom `Field` component at `src/Field.js`.  `Field`
-accepts a type (defaulted to 'text') and optionally a value.  Validating
-attributes such as 'required' on the text field and 'max' on the number field in
-`src/App.js` are passed along to the input elements belonging to `Field`.
+This project creates a custom `Field` component at `src/Field.js`.  `Field` accepts a type (defaulted to 'text') and optionally a value.  Validating attributes such as 'required' on the text field and 'max' on the number field in `src/App.js` are passed along to the input elements belonging to `Field`.
 
-Fields with failed validation will display the invalid message in a targeted
-`span`:
+Fields with failed validation will display the invalid message in a targeted `span`:
 
 ```
 <span className="pure-form-message-inline">{invalidMsg}</span>
@@ -27,11 +19,7 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  Enter a value
-in the "required text field" and then delete it to show the field's validation
-message relating to being a required field.  Type `21` into the "number field
-(20 max)" to show its validation message of "Value must be less than or equal to
-20."
+A browser window will automatically open and will load the app.  Enter a value in the "required text field" and then delete it to show the field's validation message relating to being a required field.  Type `21` into the "number field (20 max)" to show its validation message of "Value must be less than or equal to 20."
 
 
 # Create React App README
