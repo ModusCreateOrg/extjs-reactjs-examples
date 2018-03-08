@@ -14,7 +14,7 @@ In the following examples we look at how to recreate many of the familiar layout
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Layouts](https://moduscreate.com/blog/ext-js-react-layouts/)
 
 
 
