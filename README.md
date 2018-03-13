@@ -25,7 +25,7 @@ Below is an overview of the topics covered in the series (links will be updated 
    - [Form Validation](https://moduscreate.com/blog/ext-js-react-form-validations/) *([code](./13-form-validation))*
    - [Form Submission](https://moduscreate.com/blog/ext-js-react-form-submission/) *([code](./14-form-submission))*
  - [Layouts](https://moduscreate.com/blog/ext-js-react-layouts/) *([code](./15-layouts))*
- - Button
+ - [Button](https://moduscreate.com/blog/ext-js-react-button/) *([code](./16-buttons))*
  - *Containers*
    - Toolbar
    - Panel
