@@ -27,7 +27,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - [Layouts](https://moduscreate.com/blog/ext-js-react-layouts/) *([code](./15-layouts))*
  - [Button](https://moduscreate.com/blog/ext-js-react-button/) *([code](./16-buttons))*
  - *Containers*
-   - Toolbar
+   - [Toolbar](https://moduscreate.com/blog/ext-js-react-toolbar/) *([code](./17-toolbar))*
    - Panel
    - Tab Panel
    - Carousel

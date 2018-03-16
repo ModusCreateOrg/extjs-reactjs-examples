@@ -11,7 +11,6 @@ The following examples show how you can create the same features associated with
 
 ### Related Blog Article
 
-*COMING SOON*
 [Ext JS to React: Button](https://moduscreate.com/blog/ext-js-react-button/)
 
 
