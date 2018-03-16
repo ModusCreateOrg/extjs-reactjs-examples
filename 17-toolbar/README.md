@@ -11,7 +11,6 @@ The following examples show how to use React to create toolbars like those used 
 
 ### Related Blog Article
 
-*COMING SOON*
-
+[Ext JS to React: Toolbar](https://moduscreate.com/blog/ext-js-react-toolbar/)
 
 
