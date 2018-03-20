@@ -28,7 +28,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - [Button](https://moduscreate.com/blog/ext-js-react-button/) *([code](./16-buttons))*
  - *Containers*
    - [Toolbar](https://moduscreate.com/blog/ext-js-react-toolbar/) *([code](./17-toolbar))*
-   - Panel
+   - [Panel](https://moduscreate.com/blog/ext-js-to-react-panel/) *([code](./18-panel))*
    - Tab Panel
    - Carousel
  - Floating Components
