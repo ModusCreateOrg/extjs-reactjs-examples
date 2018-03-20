@@ -8,5 +8,5 @@ The following example demonstrates how to create a collapsible panel with React
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Panel](https://moduscreate.com/blog/ext-js-to-react-panel/)
 
