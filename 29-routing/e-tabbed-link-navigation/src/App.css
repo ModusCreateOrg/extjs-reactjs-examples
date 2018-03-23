@@ -1,3 +1,7 @@
+/* .active {
+  border-bottom-color: #6597ca;
+} */
+
 .nav-links a {
   display: inline-block;
   border-bottom: 4px solid transparent;
@@ -5,7 +9,6 @@
   text-decoration: none;
   color: #555;
 }
-
-.active {
-  border-bottom-color: #6597ca !important;
+.nav-links a.active {
+  border-bottom-color: #6597ca;
 }
