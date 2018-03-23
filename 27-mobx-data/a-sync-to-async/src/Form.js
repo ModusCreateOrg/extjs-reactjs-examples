@@ -6,7 +6,7 @@ import UserStore from './UserStore';
 @inject(({ store }, { user }) => {
   return {
     store,
-    user: user || (store && store.user)
+    user
   };
 })
 @observer
@@ -31,7 +31,7 @@ class Form extends Component {
   }
 
   render() {
-    const { user } = this.props.store;
+    const { user } = this.props;
     const { renderField, submit } = this;
 
     return (
@@ -74,10 +74,10 @@ class Form extends Component {
 
   @action.bound
   handleFieldChange(e) {
-    const { onChange, store } = this.props;
+    const { onChange, user } = this.props;
     const { name, value } = e.target;
 
-    store.user[name] = value;
+    user[name] = value;
 
     if (onChange) {
       onChange({ [name]: value });
