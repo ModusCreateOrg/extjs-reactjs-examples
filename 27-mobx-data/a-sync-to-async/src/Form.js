@@ -25,13 +25,15 @@ class Form extends Component {
     if (store.fetchUser && userId) {
       store
         .fetchUser(userId)
-        .then(userData => (store.user = userData))
+        .then(userData => {
+          store.user = userData;
+        })
         .catch(e => console.log(e));
     }
   }
 
   render() {
-    const { user } = this.props;
+    const { user } = this.props.store;
     const { renderField, submit } = this;
 
     return (
