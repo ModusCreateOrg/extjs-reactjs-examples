@@ -29,7 +29,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - *Containers*
    - [Toolbar](https://moduscreate.com/blog/ext-js-react-toolbar/) *([code](./17-toolbar))*
    - [Panel](https://moduscreate.com/blog/ext-js-to-react-panel/) *([code](./18-panel))*
-   - Tab Panel
+   - [Tab Panel](https://moduscreate.com/blog/ext-js-to-react-tab-panel/) *([code](./19-tabpanel))*
    - Carousel
  - Floating Components
  - *Data Binding / Controller*

@@ -8,5 +8,5 @@ The following example demonstrates how to create a tab panel with React
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Tab Panel](https://moduscreate.com/blog/ext-js-to-react-tab-panel/)
 
