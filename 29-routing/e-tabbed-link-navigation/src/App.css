@@ -5,7 +5,6 @@
   text-decoration: none;
   color: #555;
 }
-
-.active {
-  border-bottom-color: #6597ca !important;
+.nav-links a.active {
+  border-bottom-color: #6597ca;
 }
