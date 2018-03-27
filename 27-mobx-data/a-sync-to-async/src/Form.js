@@ -19,14 +19,12 @@ class Form extends Component {
   @action
   componentDidMount() {
     const { store, user, userId } = this.props;
-    
-    store.user = user;
 
     if (store.fetchUser && userId) {
       store
         .fetchUser(userId)
-        .then(userData => (store.user = userData))
-        .catch(e => console.log(e));
+        .then(userData => Object.assign(user, userData))
+        .catch(console.log);
     }
   }
 
