@@ -8,6 +8,4 @@ The following example demonstrates how to create a carousel component with React
 
 ### Related Blog Article
 
-*COMING SOON*
-
-
+[Ext JS to React: Carousel](https://moduscreate.com/blog/ext-js-to-react-carousel/)
