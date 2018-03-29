@@ -10,4 +10,4 @@ The following examples show how to create floating components like context menus
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Floating Components](https://moduscreate.com/blog/ext-js-to-react-floating-components/)
