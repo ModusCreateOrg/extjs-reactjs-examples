@@ -31,7 +31,7 @@ Below is an overview of the topics covered in the series (links will be updated 
    - [Panel](https://moduscreate.com/blog/ext-js-to-react-panel/) *([code](./18-panel))*
    - [Tab Panel](https://moduscreate.com/blog/ext-js-to-react-tab-panel/) *([code](./19-tabpanel))*
    - [Carousel](https://moduscreate.com/blog/ext-js-to-react-carousel/) *([code](./20-carousel))*
- - Floating Components
+ - [Floating Components](https://moduscreate.com/blog/ext-js-to-react-floating-components/) *([code](./21-floating-components))*
  - *Data Binding / Controller*
    - Binding with React
    - Handling Application State with Redux
