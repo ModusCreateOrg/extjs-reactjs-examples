@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Scroll to the bottom of the grid's scrollable area to see an additional dataset loaded to the grid.
 
+[![Edit e-infinite-scrolling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/10-grid-features/e-infinite-scrolling)
 
 # Create React App README
 

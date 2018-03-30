@@ -19,6 +19,7 @@ A browser window will automatically open and will load the app.  Click a list it
 
 `Tool`s can have click handlers that can prevent the selection of their host row.  Click on the archive icons to see the `ListItem` selected.  Click on an arrow to see the event handled by the tool and not propagated up to the `ListItem`.
 
+[![Edit c-list-tools](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/07-list/c-list-tools)
 
 # Create React App README
 

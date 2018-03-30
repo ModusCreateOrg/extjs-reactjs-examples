@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click the arrow icon in the header to toggle the collapse state of the panel.  Click the React tool icon to see the user interaction logged in the console.
 
+[![Edit a-panel](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/18-panel/a-panel)
 
 # Create React App README
 

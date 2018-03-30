@@ -17,6 +17,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Hover your cursor over word "MOON" to see the `Tooltip` in action.
 
+[![Edit b-tooltips](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/21-floating-components/b-tooltips)
 
 # Create React App README
 

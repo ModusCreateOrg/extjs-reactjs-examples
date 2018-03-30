@@ -6,8 +6,8 @@ The following examples show how you can create the same features associated with
 
  - [a-simple-button](./a-simple-button): a simple React button
  - [b-button-icon](./b-button-icon): render an icon font within a button
- - [c-advanced-button](./c-advanced button): button component with a floating menu using the [Semantic UI](https://www.npmjs.com/package/semantic-ui-react) library
- - [d-segmented-button](./d-segmented button): sample segmented button
+ - [c-advanced-button](./c-advanced-button): button component with a floating menu using the [Semantic UI](https://www.npmjs.com/package/semantic-ui-react) library
+ - [d-segmented-button](./d-segmented-button): sample segmented button
 
 ### Related Blog Article
 

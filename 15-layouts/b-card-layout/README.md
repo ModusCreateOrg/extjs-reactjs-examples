@@ -17,6 +17,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Change the `activeCard` prop to `1` in `src/index.js` to show the second of the two child components.
 
+[![Edit b-card-layout](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/15-layouts/b-card-layout)
 
 # Create React App README
 

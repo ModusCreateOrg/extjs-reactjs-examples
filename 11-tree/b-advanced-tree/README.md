@@ -19,6 +19,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Double-click a cell in the tree column to show the editor text field.  Scroll the view to the right to see the first column locked in place.
 
+[![Edit b-advanced-tree](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/11-tree/b-advanced-tree)
 
 # Create React App README
 

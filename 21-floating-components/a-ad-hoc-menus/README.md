@@ -15,6 +15,8 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Right-click within the parent div to show the `Menu` at the location where the event occurred.
 
+[![Edit a-ad-hoc-menus](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/21-floating-components/a-ad-hoc-menus)
+
 
 # Create React App README
 

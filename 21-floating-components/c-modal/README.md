@@ -16,6 +16,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click on the "Show Floating" button to show the modal `Floating` component rendered to the `document.body`.
 
+[![Edit c-modal](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/21-floating-components/c-modal)
 
 # Create React App README
 

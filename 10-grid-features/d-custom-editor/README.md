@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Double-click on a cell in the "name" column to see the standard editor in action.  Double-click a cell in the "email" column to show the custom editor field.
 
+[![Edit d-custom-editor](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/10-grid-features/d-custom-editor)
 
 # Create React App README
 

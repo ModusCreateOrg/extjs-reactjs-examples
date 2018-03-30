@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click the button to show its menu.  Click on each menu item to see the handling of the user interaction logged to the console.
 
+[![Edit c-advanced-button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/16-buttons/c-advanced-button)
 
 # Create React App README
 

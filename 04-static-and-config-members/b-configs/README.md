@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  In `src/App.js` an instance of `Foo` is created and its `foo` property is retrieved and logged. The value is then updated using `instance.foo = 'foobar';` and its value then logged.
 
+[![Edit b-configs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/04-static-and-config-members/b-configs)
 
 # Create React App README
 

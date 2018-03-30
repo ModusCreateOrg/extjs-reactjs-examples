@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click the button to see the handling of the user interaction logged to the console.
 
+[![Edit b-button-icon](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/16-buttons/b-button-icon)
 
 # Create React App README
 

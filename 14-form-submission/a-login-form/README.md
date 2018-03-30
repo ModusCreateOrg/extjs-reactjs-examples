@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Inspect the notes on the `handleSubmit` method in `src/App.js` for more information on how the form data could be submitted to a remote server.
 
+[![Edit a-login-form](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/14-form-submission/a-login-form)
 
 # Create React App README
 

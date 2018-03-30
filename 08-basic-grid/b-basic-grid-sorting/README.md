@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click a header to sort the rows using that column's data.  Click the same column again to toggle the sorting between ascending and descending.
 
+[![Edit b-basic-grid-sorting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/08-basic-grid/b-basic-grid-sorting)
 
 # Create React App README
 
