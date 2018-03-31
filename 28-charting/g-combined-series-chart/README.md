@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  
 
+[![Edit g-combined-series-chart](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/28-charting/g-combined-series-chart)
 
 # Create React App README
 

@@ -19,6 +19,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Type in the form fields to see the user interaction logged to the console using the `onChange` handler function in the `App` component at `src/App.js`.
 
+[![Edit b-tell-parent](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/22-react-binding/b-tell-parent)
 
 # Create React App README
 

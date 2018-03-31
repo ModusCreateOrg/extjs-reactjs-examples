@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  
 
+[![Edit a-application-state-redux](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/23-redux-state/a-application-state-redux)
 
 # Create React App README
 

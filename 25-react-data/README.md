@@ -1,4 +1,4 @@
-# 24 Ext JS to React: Load, Sort and Filter Data with React
+# 25 Ext JS to React: Load, Sort and Filter Data with React
 
 The following examples show how to fetch remote data as well as sort or filter it for consumption by an application
 

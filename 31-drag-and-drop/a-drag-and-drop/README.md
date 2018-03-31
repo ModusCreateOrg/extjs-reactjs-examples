@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Drag the list items around to reorder them within their container.  When a list item is dragged into a valid position within its container the container will be highlighted.  If the drop operation is successful, the list item will be re-ordered within the container.  If it is not successful, the item will snap back to its initial position.
 
+[![Edit a-drag-and-drop](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/31-drag-and-drop/a-drag-and-drop)
 
 # Create React App README
 

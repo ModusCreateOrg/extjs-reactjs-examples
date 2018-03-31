@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Change the URL from `http://localhost:3000/` to `http://localhost:3000/user` to see the UI display the `User` class with a `UserList`.  Change the URL to `http://localhost:3000/user/1234` to display the `UserForm`.  The `UserForm` receives the passed ID of "1234" as prop which is then used in its rendered output.
 
+[![Edit b-nested-route](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/29-routing/b-nested-route)
 
 # Create React App README
 
