@@ -33,7 +33,7 @@ Below is an overview of the topics covered in the series (links will be updated 
    - [Carousel](https://moduscreate.com/blog/ext-js-to-react-carousel/) *([code](./20-carousel))*
  - [Floating Components](https://moduscreate.com/blog/ext-js-to-react-floating-components/) *([code](./21-floating-components))*
  - *Data Binding / Controller*
-   - Binding with React
+   - [Binding with React](https://moduscreate.com/blog/ext-js-to-react-binding-with-react/) *([code](./22-react-binding))*
    - Handling Application State with Redux
    - Handling Application State with MobX
  - Data Stores
