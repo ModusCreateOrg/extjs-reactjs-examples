@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.
 
+[![Edit d-combo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/12-form-fields/d-combo)
 
 # Create React App README
 

@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  `MyComponent` is instantiated by the `App` component exported from `my-app/src/App.js`.  Click the button to see the input field text update.
 
+[![Edit c-class-instances](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/03-defining-classes/c-class-instances)
 
 # Create React App README
 

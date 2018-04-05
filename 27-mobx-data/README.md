@@ -1,4 +1,4 @@
-# 26 Ext JS to React: Handling Data with Redux
+# 27 Ext JS to React: Handling Data with MobX
 
 In the following example we modify the form from [24-mobx-state](../24-mobx-state/) to load the form data from a remote source
 

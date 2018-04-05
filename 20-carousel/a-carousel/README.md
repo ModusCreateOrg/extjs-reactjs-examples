@@ -17,6 +17,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click on the indictor dots or swipe left or right to change the active card in the `Carousel`.
 
+[![Edit a-carousel](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/20-carousel/a-carousel)
 
 # Create React App README
 

@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click the child button elements to toggle their 'pressed' state.
 
+[![Edit c-segmented-button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/16-buttons/d-segmented-button)
 
 # Create React App README
 

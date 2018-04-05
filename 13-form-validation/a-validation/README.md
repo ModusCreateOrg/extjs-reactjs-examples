@@ -21,6 +21,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Enter a value in the "required text field" and then delete it to show the field's validation message relating to being a required field.  Type `21` into the "number field (20 max)" to show its validation message of "Value must be less than or equal to 20."
 
+[![Edit a-validation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/13-form-validation/a-validation)
 
 # Create React App README
 

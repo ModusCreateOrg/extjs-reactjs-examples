@@ -19,6 +19,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  In the browser you'll see a simple box element positioned absolutely using CSS applied via the `float` method shared to `Box` by `withFloat`.
 
+[![Edit a-floatingbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/05-mixins/a-floatingbox)
 
 # Create React App README
 

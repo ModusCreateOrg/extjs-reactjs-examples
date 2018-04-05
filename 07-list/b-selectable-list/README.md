@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click a list item to select it. Shift-click another item to select multiple list items. When a selection occurs, the selection event and number of selected items is logged to the console.
 
+[![Edit b-selectable-list](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/07-list/b-selectable-list)
 
 # Create React App README
 

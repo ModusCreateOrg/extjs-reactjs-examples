@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click the checkboxes in the rows and column header to see the row selection model in action.
 
+[![Edit e-checkbox-selection-model](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/09-selection-model/c-checkbox-selection-model)
 
 # Create React App README
 

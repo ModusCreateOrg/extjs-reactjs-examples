@@ -21,6 +21,7 @@ The blog post suggests some simple edits to see this in action.
 
 For a quick start, you can edit `my-app/src/App.js` and comment out one of the two import lines: `logo.svg` or `logo2.svg`.
 
+[![Edit my-app](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/01-scaffolding/my-app)
 
 # Create React App README
 

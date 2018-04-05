@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Click between the Home, User, and About links to see the `Link` components in action.
 
+[![Edit d-simple-link-navigation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/29-routing/d-simple-link-navigation)
 
 # Create React App README
 

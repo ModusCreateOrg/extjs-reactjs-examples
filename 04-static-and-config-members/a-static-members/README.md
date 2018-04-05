@@ -19,6 +19,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  `Foo` is instantiated by the `App` component exported from `my-app/src/App.js`.  You can uncomment `hasErrors = true;` in the `MyError.fromAjax` to return a `MyError` instance to `Foo` to be handled in the `fetch.then.catch` handler.
 
+[![Edit a-static-members](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/04-static-and-config-members/a-static-members)
 
 # Create React App README
 

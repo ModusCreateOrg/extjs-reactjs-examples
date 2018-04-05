@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  When the application launches from `src/App.js` the `App` component is decorated with the `withMasking` HOC with the syntax `@withMasking`.  Once mounted, `App` mocks a remote load call which masks `App` for 3 seconds and then unmasks (simulating the end of an asynchronous data fetch).
 
+[![Edit b-simple-decorators](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/05-mixins/b-simple-decorators)
 
 # Create React App README
 

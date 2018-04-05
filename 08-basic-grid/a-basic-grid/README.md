@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.
 
+[![Edit a-basic-grid](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/08-basic-grid/a-basic-grid)
 
 # Create React App README
 

@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Double-click on a cell in the "name" column to see the editor in action.
 
+[![Edit c-cell-editing](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/10-grid-features/c-cell-editing)
 
 # Create React App README
 

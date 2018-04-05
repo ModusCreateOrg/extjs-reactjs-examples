@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.
 
+[![Edit j-toggle](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/12-form-fields/j-toggle)
 
 # Create React App README
 

@@ -15,8 +15,9 @@ $ npm install
 $ npm start
 ```
 
-A browser window will automatically open and will load the app.  
+A browser window will automatically open and will load the app.
 
+[![Edit a-simple-binding](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/22-react-binding/a-simple-binding)
 
 # Create React App README
 

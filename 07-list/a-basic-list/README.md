@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.
 
+[![Edit a-basic-list](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/07-list/a-basic-list)
 
 # Create React App README
 

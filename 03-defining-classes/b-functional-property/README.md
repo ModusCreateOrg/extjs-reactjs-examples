@@ -17,6 +17,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  `MyContainer` is instantiated by the `App` component exported from `my-app/src/App.js`.  Both the default and the customized `MyComponent` instance are displayed in the browser.
 
+[![Edit functional-property](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/03-defining-classes/b-functional-property)
 
 # Create React App README
 

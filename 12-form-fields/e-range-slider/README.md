@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.
 
+[![Edit e-range-slider](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/12-form-fields/e-range-slider)
 
 # Create React App README
 

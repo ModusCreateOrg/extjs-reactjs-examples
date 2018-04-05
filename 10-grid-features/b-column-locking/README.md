@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Scroll to the right to see the name grid locked in position.
 
+[![Edit b-column-locking](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/10-grid-features/b-column-locking)
 
 # Create React App README
 

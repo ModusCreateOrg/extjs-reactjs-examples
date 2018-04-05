@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  When the application launches from `src/App.js` the `App` component creates a `Mask` which returns a `NetworkView` instance from its render prop function.  Once mounted, `NetworkView` mocks a remote load call which masks itself for 3 seconds and then unmasks (simulating the end of an asynchronous data fetch).
 
+[![Edit c-maskable-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/05-mixins/c-maskable-example)
 
 # Create React App README
 

@@ -16,6 +16,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  
 
+[![Edit d-docked-toolbar-vertical](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/17-toolbar/d-docked-toolbar-vertical)
 
 # Create React App README
 

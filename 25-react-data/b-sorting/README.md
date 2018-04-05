@@ -17,6 +17,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  
 
+[![Edit b-sorting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/25-react-data/b-sorting)
 
 # Create React App README
 

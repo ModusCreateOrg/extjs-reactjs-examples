@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  
 
+[![Edit h-pie-chart](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/28-charting/h-pie-chart)
 
 # Create React App README
 

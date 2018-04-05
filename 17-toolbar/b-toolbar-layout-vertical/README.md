@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  
 
+[![Edit b-toolbar-layout-vertical](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/17-toolbar/b-toolbar-layout-vertical)
 
 # Create React App README
 

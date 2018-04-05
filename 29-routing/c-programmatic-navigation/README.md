@@ -15,6 +15,7 @@ $ npm start
 
 A browser window will automatically open and will load the app.  Change the URL from `http://localhost:3000/` to `http://localhost:3000/user` to see the UI display the `User` class with a `UserList`.  Change the URL to `http://localhost:3000/user/1234` to display the `UserForm`.  The `UserForm` receives the passed ID of "1234" as prop which is then used in its rendered output.  In this example the `UserForm` has a directive in its render method that says if the user id passed in is "1234" then programmatically change the URL (history) to be "abcd" instead.
 
+[![Edit c-programmatic-navigation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/ModusCreateOrg/extjs-reactjs-examples/tree/master/29-routing/c-programmatic-navigation)
 
 # Create React App README
 
