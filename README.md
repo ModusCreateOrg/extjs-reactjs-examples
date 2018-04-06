@@ -34,7 +34,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - [Floating Components](https://moduscreate.com/blog/ext-js-to-react-floating-components/) *([code](./21-floating-components))*
  - *Data Binding / Controller*
    - [Binding with React](https://moduscreate.com/blog/ext-js-to-react-binding-with-react/) *([code](./22-react-binding))*
-   - Handling Application State with Redux
+   - [Handling Application State with Redux](https://moduscreate.com/blog/ext-js-to-react-handling-application-state-with-redux/) *([code](./23-redux-state))*
    - Handling Application State with MobX
  - Data Stores
    - Load, Sort and Filter Data with React
