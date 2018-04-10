@@ -35,7 +35,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - *Data Binding / Controller*
    - [Binding with React](https://moduscreate.com/blog/ext-js-to-react-binding-with-react/) *([code](./22-react-binding))*
    - [Handling Application State with Redux](https://moduscreate.com/blog/ext-js-to-react-handling-application-state-with-redux/) *([code](./23-redux-state))*
-   - Handling Application State with MobX
+   - [Handling Application State with MobX](https://moduscreate.com/blog/ext-js-to-react-handling-application-state-with-mobx/) *([code](./24-mobx-state))*
  - Data Stores
    - Load, Sort and Filter Data with React
    - Handling Data with Redux

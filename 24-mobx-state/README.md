@@ -8,4 +8,4 @@ The following example shows how application state can be managed using the popul
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Handling Application State with Mobx](https://moduscreate.com/blog/ext-js-to-react-handling-application-state-with-mobx/)
