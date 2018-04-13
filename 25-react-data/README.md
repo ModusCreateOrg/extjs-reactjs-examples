@@ -10,4 +10,4 @@ The following examples show how to fetch remote data as well as sort or filter i
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Load, Sort and Filter Data with React](https://moduscreate.com/blog/ext-js-to-react-load-sort-and-filter-data-with-react/)
