@@ -8,5 +8,5 @@ In the following example we modify the form from [23-redux-state](../23-redux-st
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Handling Data with Redux](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-redux/)
 
