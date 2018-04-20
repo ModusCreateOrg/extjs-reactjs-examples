@@ -39,7 +39,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - Data Stores
    - [Load, Sort and Filter Data with React](https://moduscreate.com/blog/ext-js-to-react-load-sort-and-filter-data-with-react/) *([code](./25-react-data))*
    - [Handling Data with Redux](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-redux/) *([code](./26-redux-data))*
-   - Handling Data with MobX
+   - [Handling Data with MobX](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-mobx/) *([code](./27-mobx-data))*
  - Charting
  - Routing
  - Application Styling

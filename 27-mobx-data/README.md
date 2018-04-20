@@ -8,4 +8,4 @@ In the following example we modify the form from [24-mobx-state](../24-mobx-stat
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Handling Data with MobX](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-mobx/)
