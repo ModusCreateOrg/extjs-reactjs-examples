@@ -16,4 +16,4 @@ In the following examples we look at how to create many of the popular charts fr
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Charting](https://moduscreate.com/blog/ext-js-to-react-charting/)

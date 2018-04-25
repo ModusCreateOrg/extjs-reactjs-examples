@@ -1,6 +1,6 @@
 # Ext JS -> React examples
 
-These code examples support the Ext JS to React blog articles on the [Modus Create blog](https://moduscreate.com/blog/extjs_to_react_migration_to_open_source/). 
+These code examples support the Ext JS to React blog articles on the [Modus Create blog](https://moduscreate.com/blog/extjs_to_react_migration_to_open_source/).
 
 Below is an overview of the topics covered in the series (links will be updated as the series rolls out):
 
@@ -40,7 +40,7 @@ Below is an overview of the topics covered in the series (links will be updated 
    - [Load, Sort and Filter Data with React](https://moduscreate.com/blog/ext-js-to-react-load-sort-and-filter-data-with-react/) *([code](./25-react-data))*
    - [Handling Data with Redux](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-redux/) *([code](./26-redux-data))*
    - [Handling Data with MobX](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-mobx/) *([code](./27-mobx-data))*
- - Charting
+ - [Charting](https://moduscreate.com/blog/ext-js-to-react-charting/) *([code](./28-charting))*
  - Routing
  - Application Styling
  - Drag and Drop
@@ -48,7 +48,7 @@ Below is an overview of the topics covered in the series (links will be updated 
 
 ---
 
-# Legal 
+# Legal
 Copyright (C) 2018 Modus Create, Inc.
 
 Licensed under the [MIT License](LICENSE.md).
