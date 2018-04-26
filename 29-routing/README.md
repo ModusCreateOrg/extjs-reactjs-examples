@@ -12,4 +12,4 @@ In the following examples we look at how to control the current view using route
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Routing](https://moduscreate.com/blog/ext-js-to-react-routing/)
