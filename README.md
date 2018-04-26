@@ -1,6 +1,6 @@
 # Ext JS -> React examples
 
-These code examples support the Ext JS to React blog articles on the [Modus Create blog](https://moduscreate.com/blog/extjs_to_react_migration_to_open_source/). 
+These code examples support the Ext JS to React blog articles on the [Modus Create blog](https://moduscreate.com/blog/extjs_to_react_migration_to_open_source/).
 
 Below is an overview of the topics covered in the series (links will be updated as the series rolls out):
 
@@ -48,7 +48,7 @@ Below is an overview of the topics covered in the series (links will be updated 
 
 ---
 
-# Legal 
+# Legal
 Copyright (C) 2018 Modus Create, Inc.
 
 Licensed under the [MIT License](LICENSE.md).
