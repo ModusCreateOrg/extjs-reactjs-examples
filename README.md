@@ -42,7 +42,7 @@ Below is an overview of the topics covered in the series (links will be updated 
    - [Handling Data with MobX](https://moduscreate.com/blog/ext-js-to-react-handling-data-with-mobx/) *([code](./27-mobx-data))*
  - [Charting](https://moduscreate.com/blog/ext-js-to-react-charting/) *([code](./28-charting))*
  - [Routing](https://moduscreate.com/blog/ext-js-to-react-routing/) *([code](./29-routing))*
- - Application Styling
+ - [Application Styling](https://moduscreate.com/blog/ext-js-react-application-styling/) *([code](./30-application-styling))*
  - Drag and Drop
  - FAQ
 
