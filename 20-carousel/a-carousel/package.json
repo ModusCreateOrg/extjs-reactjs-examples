@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-scripts": "1.1.0",
-    "react-swipeable-views": "^0.12.12"
+    "react-swipeable-views": "^0.12.13"
   },
   "scripts": {
     "start": "react-scripts start",
