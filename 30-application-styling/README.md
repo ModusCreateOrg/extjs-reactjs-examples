@@ -9,4 +9,4 @@ In the following examples we look at how to style React applications
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Application Styling](https://moduscreate.com/blog/ext-js-react-application-styling/)
