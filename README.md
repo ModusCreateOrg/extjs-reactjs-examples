@@ -43,7 +43,7 @@ Below is an overview of the topics covered in the series (links will be updated 
  - [Charting](https://moduscreate.com/blog/ext-js-to-react-charting/) *([code](./28-charting))*
  - [Routing](https://moduscreate.com/blog/ext-js-to-react-routing/) *([code](./29-routing))*
  - [Application Styling](https://moduscreate.com/blog/ext-js-react-application-styling/) *([code](./30-application-styling))*
- - Drag and Drop
+ - [Drag and Drop](https://moduscreate.com/blog/ext-js-react-drag-drop/) *([code](./31-drag-and-drop))*
  - FAQ
 
 ---
