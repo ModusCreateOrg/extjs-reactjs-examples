@@ -8,4 +8,4 @@ In the following example we'll create a list with items that can be rearranged v
 
 ### Related Blog Article
 
-*COMING SOON*
+[Ext JS to React: Drag and Drop](https://moduscreate.com/blog/ext-js-react-drag-drop/)
