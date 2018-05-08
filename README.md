@@ -1,4 +1,6 @@
 # Ext JS -> React examples
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FModusCreateOrg%2Fextjs-reactjs-examples.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FModusCreateOrg%2Fextjs-reactjs-examples?ref=badge_shield)
+
 
 These code examples support the Ext JS to React blog articles on the [Modus Create blog](https://moduscreate.com/blog/extjs_to_react_migration_to_open_source/).
 
@@ -52,3 +54,7 @@ Below is an overview of the topics covered in the series (links will be updated 
 Copyright (C) 2018 Modus Create, Inc.
 
 Licensed under the [MIT License](LICENSE.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FModusCreateOrg%2Fextjs-reactjs-examples.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FModusCreateOrg%2Fextjs-reactjs-examples?ref=badge_large)
