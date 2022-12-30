@@ -9,7 +9,7 @@
     "@fortawesome/react-fontawesome": "0.0.17",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
