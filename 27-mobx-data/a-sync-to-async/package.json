@@ -27,7 +27,7 @@
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
-    "jest": "20.0.4",
+    "jest": "29.6.1",
     "mobx": "^3.5.1",
     "mobx-react": "^4.4.1",
     "object-assign": "4.1.1",
